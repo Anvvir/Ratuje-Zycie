@@ -53,6 +53,7 @@
   .button{
     font-family: 'Alegreya SC', sans-serif;
     font-size: 3rem;
+    text-decoration: none;
     width: 95%;
     margin: 0 -30%;
     color: white;
