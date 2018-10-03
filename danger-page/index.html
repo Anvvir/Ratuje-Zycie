@@ -5,19 +5,20 @@
     <title>Ratuje Życie - Zagrożenie Życia</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Alegreya+SC&subset=latin,latin-ext" rel="stylesheet">
+    <script src="script.js"></script>
   </head>
   <body>
-    <div id="relative">
-      <img class="background" src="humanoranimal.jpg" alt="background">
-      <h1>Komu musisz pomóc?</h1>
-      <a href="">
-        <img class="logo" id="human-logo" src="human-logo.png" alt="humanlogo">
-        <p id="human-text">Człowiek</p>
-      </a>
-      <a href="">
-        <img class="logo" id="animal-logo" src="animal-logo.png" alt="animallogo">
-        <p id="animal-text">Zwierze</p>
-      </a>
+    <div id="human-or-animal-decision">
+      <img id="background" src="humanoranimal.jpg" alt="background">
+      <h1 id="question">Komu musisz pomóc?</h1>
+      <button onclick="humanchoice()">
+        <img class="logo" id="first-logo" src="human-logo.png" alt="firstlogo">
+        <p id="first-text" class="text">Człowiek</p>
+      </button>
+      <button onclick="animalchoice()">
+        <img class="logo" id="second-logo" src="animal-logo.png" alt="secondlogo">
+        <p id="second-text" class="text">Zwierze</p>
+      </button>
     </div>
   </body>
 </html>
