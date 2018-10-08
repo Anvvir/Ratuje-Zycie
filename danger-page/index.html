@@ -3,21 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>Ratuje Życie - Zagrożenie Życia</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="style/style.css" type="text/css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Alegreya+SC&subset=latin,latin-ext" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
   </head>
   <body>
-    <div id="human-or-animal-decision">
-      <img id="background" src="humanoranimal.jpg" alt="background">
-      <h1 id="question">Komu musisz pomóc?</h1>
+    <div id="mainscreen" class="relative">
+      <img class="background" src="img/humanoranimal.jpg" alt="background">
+      <h1 class="question">Komu musisz pomóc?</h1>
       <button onclick="humanchoice()">
-        <img class="logo" id="first-logo" src="human-logo.png" alt="firstlogo">
-        <p id="first-text" class="text">Człowiek</p>
+        <img class="logo first-logo" src="img/human-logo.png" alt="firstlogo">
+        <p class="text first-text">Człowiek</p>
       </button>
       <button onclick="animalchoice()">
-        <img class="logo" id="second-logo" src="animal-logo.png" alt="secondlogo">
-        <p id="second-text" class="text">Zwierze</p>
+        <img class="logo second-logo" src="img/animal-logo.png" alt="secondlogo">
+        <p class="text second-text">Zwierze</p>
+      </button>
+    </div>
+
+    <div id="animalscreen" class="relative">
+      <img class="background" src="img/catordog.jpg" alt="background">
+      <h1 class="question">Które zwierze potrzebuje twojej pomocy?</h1>
+      <button>
+        <img class="logo first-logo" src="img/dog.png" alt="firstlogo">
+        <p class="text first-text">Pies</p>
+      </button>
+      <button>
+        <img class="logo second-logo" src="img/cat.png" alt="secondlogo">
+        <p class="text second-text">Kot</p>
+      </button>
+    </div>
+
+    <div id="humanscreen" class="relative"  >
+      <img class="background" src="img/adultorchild.jpg" alt="background">
+      <h1 class="question">Tą osobą jest dorosły, czy małe dziecko?</h1>
+      <button>
+        <img class="logo first-logo" src="img/adult.png" alt="firstlogo">
+        <p class="text first-text">Dorosły</p>
+      </button>
+      <button>
+        <img class="logo second-logo" src="img/child.png" alt="secondlogo">
+        <p class="text second-text">Bobas</p>
       </button>
     </div>
   </body>
