@@ -1,3 +1,4 @@
+
 function animalchoice() {
   document.getElementById("animalscreen").style.display = "block";
   document.getElementById("mainscreen").style.display = "none";
@@ -5,4 +6,8 @@ function animalchoice() {
 function humanchoice() {
   document.getElementById("humanscreen").style.display = "block";
   document.getElementById("mainscreen").style.display = "none";
+}
+function catchoice() {
+  document.getElementById("catscreen").style.display = "block";
+  document.getElementById("animalscreen").style.display = "none";
 }

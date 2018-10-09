@@ -4,6 +4,9 @@
 #humanscreen {
   display: none;
 }
+#catscreen {
+  display: none;
+}
 body {
   margin: 0;
   font-family: 'Alegreya SC', sans-serif;
@@ -55,6 +58,31 @@ p {
 .second-text {
   width: 10%;
   left: 70%;
+}
+.third-logo {
+  left: 45%;
+}
+.third-text {
+  width: 10%;
+  left: 43.5%;
+}
+.forth-logo {
+  top: 47%;
+  left: 33.3%;
+}
+.forth-text {
+  width: 10%;
+  top: 56%;
+  left: 30.3%;
+}
+.fifth-logo {
+  top: 47%;
+  left: 60%;
+}
+.fifth-text {
+  width: 10%;
+  top: 56%;
+  left: 60%;
 }
 .text {
   font-family: 'Alegreya SC', sans-serif;
