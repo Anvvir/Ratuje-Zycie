@@ -8,9 +8,11 @@
     <script src="script/script.js"></script>
   </head>
   <body>
-    <div id="mainscreen" class="relative">
+    <div id="main_screen" class="relative">
       <img class="background" src="img/humanoranimal.jpg" alt="background">
-      <h1>Komu musisz pomóc?</h1>
+      <button onclick="homechoice()">
+        <h1>Komu musisz pomóc?</h1>
+      </button>
       <button onclick="humanchoice()">
         <figure class="first-logo">
           <img src="img/human-logo.png" alt="firstlogo">
@@ -25,96 +27,11 @@
       </button>
     </div>
 
-    <div id="animalscreen" class="relative">
-      <img class="background" src="img/catordog.jpg" alt="background">
-      <h1>Które zwierze potrzebuje twojej pomocy?</h1>
-      <button onclick="dogchoice()">
-        <figure class="first-logo">
-          <img src="img/dog-logo.png" alt="firstlogo">
-          <figcaption>Pies</figcaption>
-        </figure>
-      </button>
-      <button onclick="catchoice()">
-        <figure class="second-logo">
-          <img src="img/cat-logo.png" alt="secondlogo">
-          <figcaption>Kot</figcaption>
-        </figure>
-      </button>
-    </div>
-
-    <div id="catscreen" class="relative">
-      <img class="background" src="img/cat.jpg" alt="background">
-      <h1>W jakiej sytuacji znajduje się twój pupil?</h1>
-      <button>
-        <figure class="first-logo">
-          <img src="img/zzz-logo.png" alt="firstlogo">
-          <figcaption>Omdlenie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="second-logo">
-          <img src="img/fire-logo.png" alt="secondlogo">
-          <figcaption>Poparzenie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="third-logo">
-          <img src="img/heart-logo.png" alt="thirdlogo">
-          <figcaption>Krwawienie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="forth-logo">
-          <img src="img/lungs-logo.png" alt="forthlogo">
-          <figcaption>Duszenie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="fifth-logo">
-          <img src="img/bone-logo.png" alt="fifthlogo">
-          <figcaption>Złamanie</figcaption>
-        </figure>
-      </button>
-    </div>
-
-    <div id="dogscreen" class="relative">
-      <img class="background" src="img/dog.jpg" alt="background">
-      <h1>W jakiej sytuacji znajduje się twój pupil?</h1>
-      <button>
-        <figure class="first-logo">
-          <img src="img/zzz-logo.png" alt="firstlogo">
-          <figcaption>Omdlenie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="second-logo">
-          <img src="img/fire-logo.png" alt="secondlogo">
-          <figcaption>Poparzenie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="third-logo">
-          <img src="img/heart-logo.png" alt="thirdlogo">
-          <figcaption>Krwawienie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="forth-logo">
-          <img src="img/lungs-logo.png" alt="forthlogo">
-          <figcaption>Duszenie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="fifth-logo">
-          <img src="img/bone-logo.png" alt="fifthlogo">
-          <figcaption>Złamanie</figcaption>
-        </figure>
-      </button>
-    </div>
-
-    <div id="humanscreen" class="relative">
+    <div id="human_screen" class="relative">
       <img class="background" src="img/adultorchild.jpg" alt="background">
-      <h1>Tą osobą jest dorosły, czy małe dziecko?</h1>
+      <button onclick="homechoice()">
+        <h1>Tą osobą jest dorosły, czy małe dziecko?</h1>
+      </button>
       <button onclick="adultchoice()">
         <figure class="first-logo">
           <img src="img/adult-logo.png" alt="firstlogo">
@@ -129,13 +46,15 @@
       </button>
     </div>
 
-    <div id="adultscreen" class="relative">
+    <div id="adult_screen" class="relative">
       <img class="background" src="img/adult.jpg" alt="background">
-      <h1>W jakiej sytuacji znajduje się ta osoba?</h1>
+      <button onclick="homechoice()">
+        <h1>W jakiej sytuacji znajduje się ta osoba?</h1>
+      </button>
       <button>
         <figure class="first-logo">
           <img src="img/zzz-logo.png" alt="firstlogo">
-          <figcaption>Omdlenie</figcaption>
+          <figcaption>Nieprzytomność</figcaption>
         </figure>
       </button>
       <button>
@@ -153,7 +72,7 @@
       <button>
         <figure class="forth-logo">
           <img src="img/lungs-logo.png" alt="forthlogo">
-          <figcaption>Duszenie</figcaption>
+          <figcaption>Ciało Obce</figcaption>
         </figure>
       </button>
       <button>
@@ -164,13 +83,15 @@
       </button>
     </div>
 
-    <div id="childscreen" class="relative">
+    <div id="child_screen" class="relative">
       <img class="background" src="img/child.jpg" alt="background">
-      <h1>W jakiej sytuacji znajduje się ta osoba?</h1>
+      <button onclick="homechoice()">
+        <h1>W jakiej sytuacji znajduje się ta osoba?</h1>
+      </button>
       <button>
         <figure class="first-logo">
           <img src="img/zzz-logo.png" alt="firstlogo">
-          <figcaption>Omdlenie</figcaption>
+          <figcaption>Nieprzytomność</figcaption>
         </figure>
       </button>
       <button>
@@ -188,7 +109,7 @@
       <button>
         <figure class="forth-logo">
           <img src="img/lungs-logo.png" alt="forthlogo">
-          <figcaption>Duszenie</figcaption>
+          <figcaption>Ciało Obce</figcaption>
         </figure>
       </button>
       <button>
@@ -198,5 +119,413 @@
         </figure>
       </button>
     </div>
+
+    <div id="animal_screen" class="relative">
+      <img class="background" src="img/catordog.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Które zwierze potrzebuje twojej pomocy?</h1>
+      </button>
+      <button onclick="dogchoice()">
+        <figure class="first-logo">
+          <img src="img/dog-logo.png" alt="firstlogo">
+          <figcaption>Pies</figcaption>
+        </figure>
+      </button>
+      <button onclick="catchoice()">
+        <figure class="second-logo">
+          <img src="img/cat-logo.png" alt="secondlogo">
+          <figcaption>Kot</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="dog_screen" class="relative">
+      <img class="background" src="img/dog.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>W jakiej sytuacji znajduje się twój pupil?</h1>
+      </button>
+      <button>
+        <figure class="first-logo">
+          <img src="img/zzz-logo.png" alt="firstlogo">
+          <figcaption>Nieprzytomność</figcaption>
+        </figure>
+      </button>
+      <button>
+        <figure class="second-logo">
+          <img src="img/fire-logo.png" alt="secondlogo">
+          <figcaption>Poparzenie</figcaption>
+        </figure>
+      </button>
+      <button>
+        <figure class="third-logo">
+          <img src="img/heart-logo.png" alt="thirdlogo">
+          <figcaption>Krwawienie</figcaption>
+        </figure>
+      </button>
+      <button>
+        <figure class="forth-logo">
+          <img src="img/lungs-logo.png" alt="forthlogo">
+          <figcaption>Ciało Obce</figcaption>
+        </figure>
+      </button>
+      <button>
+        <figure class="fifth-logo">
+          <img src="img/bone-logo.png" alt="fifthlogo">
+          <figcaption>Złamanie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="cat_screen" class="relative">
+      <img class="background" src="img/cat.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>W jakiej sytuacji znajduje się twój pupil?</h1>
+      </button>
+      <button onclick="main_unconcious_cat_choice()">
+        <figure class="first-logo">
+          <img src="img/zzz-logo.png" alt="firstlogo">
+          <figcaption>Nieprzytomność</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_burn_cat_choice()">
+        <figure class="second-logo">
+          <img src="img/fire-logo.png" alt="secondlogo">
+          <figcaption>Poparzenie</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_bleeding_cat_choice()">
+        <figure class="third-logo">
+          <img src="img/heart-logo.png" alt="thirdlogo">
+          <figcaption>Krwawienie</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_foreign_cat_choice()">
+        <figure class="forth-logo">
+          <img src="img/lungs-logo.png" alt="forthlogo">
+          <figcaption>Ciało Obce</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_fracture_cat_choice()">
+        <figure class="fifth-logo">
+          <img src="img/bone-logo.png" alt="fifthlogo">
+          <figcaption>Złamanie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="main_cat_unconcious_screen" class="relative">
+      <img class="background" src="img/first-cat-unconcious.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Poszukaj pulsu na lewym boku.<br>Wyczuwasz tętno?</h1>
+      </button>
+      <button onclick="cat_unconcious_first_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Tak</figcaption>
+        </figure>
+      </button>
+      <button onclick="cat_unconcious_second_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Nie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="cat_unconcious_first_screen" class="relative">
+      <img class="background" src="img/second-cat-unconcious.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Zawiadom swojego weterynarza o sytuacji i postępuj zgodnie z jego instrukcjami. Jeśli to jest niemożliwe sprawdz czy w pysku pupila nie ma ciał obcych i przeprowadz sztuczne oddychanie. Obejmij ustami pyszczek zwierzęcia, delikatnie wdmuchuj powietrze 15-20 razy na minutę.</p>
+      </div>
+    </div>
+
+    <div id="cat_unconcious_second_screen" class="relative">
+      <img class="background" src="img/second-cat-unconcious.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Zawiadom swojego weterynarza o sytuacji i postępuj zgodnie z jego instrukcjami. Jeśli to jest niemożliwe, upewnij sie że w jamie ustnej nie znajdują się żadne ciała obce, udrożnij drogi oddechowe, delikatnie uciskaj miejsce na klatce piersiowej (ok. 100/min) nad zgięciem stawu łokciowego jedną ręką, obejmując zwierze tak by kciuk był z jednej strony a reszta palców po drugiej.</p>
+      </div>
+    </div>
+
+    <div id="main_cat_burn_screen" class="relative">
+      <img class="background" src="img/first-cat-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Czy oparzenie jest poważne i/lub rozległe?</h1>
+      </button>
+      <button onclick="cat_burn_first_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Tak</figcaption>
+        </figure>
+      </button>
+      <button onclick="cat_burn_second_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Nie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="cat_burn_first_screen" class="relative">
+      <img class="background" src="img/second-cat-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Zadbaj o ciepło kota, staraj się go nie ruszać, wezwij weterynarza.</p>
+      </div>
+    </div>
+
+    <div id="cat_burn_second_screen" class="relative">
+      <img class="background" src="img/second-cat-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Czy pojawiły się na nim pęcherze?</h1>
+      </button>
+      <button onclick="cat_burn_third_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Tak</figcaption>
+        </figure>
+      </button>
+      <button onclick="cat_burn_forth_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Nie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="cat_burn_third_screen" class="relative">
+      <img class="background" src="img/third-cat-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Polewaj część ciała chłodną wodą około 10 minut, jeśli pęcherze są zamknięte, nałóż bandaż, zabierz kota do weterynarza.</p>
+      </div>
+    </div>
+
+    <div id="cat_burn_forth_screen" class="relative">
+      <img class="background" src="img/third-cat-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Polewaj część ciała chłodną wodą około 10 minut, oparzenie wyleczy się w naturalny sposób, możesz skontultować sytuację z weterynarzem.</p>
+      </div>
+    </div>
+
+    <div id="main_cat_bleeding_screen" class="relative">
+      <img class="background" src="img/first-cat-bleeding.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Czy krwawienie jest duże?</h1>
+      </button>
+      <button onclick="cat_bleeding_first_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Tak</figcaption>
+        </figure>
+      </button>
+      <button onclick="cat_bleeding_second_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Nie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="cat_bleeding_first_screen" class="relative">
+      <img class="background" src="img/second-cat-bleeding.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Jeśli kot oddycha i ma normalne tętno unieś zranioną kończynę, przyłóż gazę i uciskaj. Jeśli krwawienie nie ustało potrzebny będzie mocniejszy opatrunek: owiń gazę bandażem i załóż opatrunek uciskowy: połóż np. Nierozwinięty bandaż w miejscu krwawienia i zawiń chustą lub bandażem dość mocno, lecz zostaw trochę miejsca na włożenie pod spód końcówki zawiniętej chusty lub bandażu. Następnie skontaktuj się z weterynarzem i wykonuj jego polecenia. Jeżeli to nie możliwe a pupil nie reaguje na bodźce zewnętrzne, sprawdź jego oddech i tętno które możesz sprawdzić na jego lewym boku za przednią łapą. Jeśli kot nie oddycha a ma tętno, wykonaj sztuczne oddychanie. Obejmij ustami pyszczek zwierzęcia i delikatnie wdmuchuj powietrze 15-20 razy na minutę, a jeżeli nie posiada też tętna wykonaj resuscytacje. elikatnie uciskaj miejsce na klatce piersiowej (ok. 100/min) nad zgięciem stawu łokciowego jedną ręką, obejmując zwierze tak by kciuk byl z jednej strony a reszta palców po drugiej.</p>
+      </div>
+    </div>
+
+    <div id="cat_bleeding_second_screen" class="relative">
+      <img class="background" src="img/second-cat-bleeding.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Zdezynfekuj ranę jodyną, przyłóż gazę, po powstaniu skrzepu załóż mały opatrunek</p>
+      </div>
+    </div>
+
+    <div id="main_cat_fracture_screen" class="relative">
+      <img class="background" src="img/first-cat-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Czy złamanie jest otwarte (krwawienie, wystająca kość)?</h1>
+      </button>
+      <button onclick="cat_fracture_first_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Tak</figcaption>
+        </figure>
+      </button>
+      <button onclick="cat_fracture_second_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Nie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="cat_fracture_first_screen" class="relative">
+      <img class="background" src="img/second-cat-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Delikatnie nałóż opatrunek z gazy, zabandażuj i unieruchom deseczkami lub patykami, obwiązując bandażem. Udaj się do weterynarza.</p>
+      </div>
+    </div>
+
+    <div id="cat_fracture_second_screen" class="relative">
+      <img class="background" src="img/second-cat-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Zabandażuj i unieruchom deseczkami lub patykami, obwiązując bandażem. Udaj się do weterynarza.</p>
+      </div>
+    </div>
+
+    <div id="main_cat_foreign_screen" class="relative">
+      <img class="background" src="img/first-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Gdzie w ciele zwierzęcia znajduje się ciało obce?</h1>
+      </button>
+      <button onclick="main_cat_foreign_throat_choice()">
+        <figure class="first-logo">
+          <img src="img/I-logo.png" alt="firstlogo">
+          <figcaption>W gardle</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_cat_foreign_nose_choice()">
+        <figure class="second-logo">
+          <img src="img/II-logo.png" alt="secondlogo">
+          <figcaption>W nozdrzach</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_cat_foreign_eye_choice()">
+        <figure class="forth-logo">
+          <img src="img/III-logo.png" alt="forthlogo">
+          <figcaption>W oku</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_cat_foreign_mouth_choice()">
+        <figure class="fifth-logo">
+          <img src="img/IV-logo.png" alt="fifthlogo">
+          <figcaption>W jamie gębowej</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="main_cat_foreign_throat_screen" class="relative">
+      <img class="background" src="img/second-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Czy kot oddycha i ma tętno?</h1>
+      </button>
+      <button onclick="cat_foreign_throat_first_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Tak</figcaption>
+        </figure>
+      </button>
+      <button onclick="cat_foreign_throat_second_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Nie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="cat_foreign_throat_first_screen" class="relative">
+      <img class="background" src="img/third-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Skontaktuj się ze swoim weterynarzem i podążaj za jego instrukcjami lub jak najprędzej zabierz swojego pupila do niego, jeśli to nie jest możliwe postępuje z krokami poniżej. </br>- Przytrzymaj język kota i spróbuj wyciągnąć je pęsetą. </br>-Poklep kota po plecach w normalnej pozycji. </br>-Obróć kota głową w dół trzymając za nogi i lekko nim potrząśnij. </br>- Uciskaj środek brzucha w miejscu żołądka.</p>
+      </div>
+    </div>
+
+    <div id="cat_foreign_throat_second_screen" class="relative">
+      <img class="background" src="img/third-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Co dokładnie się dzieje się z pupilem?</h1>
+      </button>
+      <button onclick="cat_foreign_throat_first_problem_choice()">
+        <figure class="first-logo">
+          <img src="img/I-logo.png" alt="firstlogo">
+          <figcaption>Nie oddycha, nie ma tętna.</figcaption>
+        </figure>
+      </button>
+      <button onclick="cat_foreign_throat_second_problem_choice()">
+        <figure class="second-logo">
+          <img src="img/II-logo.png" alt="secondlogo">
+          <figcaption>Nie oddycha, ma tętno.</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="cat_foreign_throat_first_problem_screen" class="relative">
+      <img class="background" src="img/forth-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Skontaktuj się ze swoim weterynarzem i podążaj za jego instrukcjami lub jak najprędzej zabierz swojego pupila do niego, jeśli to nie jest możliwe delikatnie uciskaj miejsce na klatce piersiowej (ok.100/min) nad zgięciem stawu łokciowego, obejmując zwierze tak by kciuk byl z jednej strony a reszta palców po drugiej. Kontynuuj aż do przybycia bądz do dotarcia do weterynarza lub do powrotu tętna i oddechu.</p>
+      </div>
+    </div>
+
+    <div id="cat_foreign_throat_second_problem_screen" class="relative">
+      <img class="background" src="img/forth-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Skontaktuj się ze swoim weterynarzem i podążaj za jego instrukcjami lub jak najprędzej zabierz swojego pupila do niego, jeśli to nie jest możliwe wykonaj sztuczne oddychanie. Obejmij ustami pyszczek zwierzęcia i delikatnie wdmuchuj powietrze 15-20 razy na minutę. Kontynuuj aż do przybycia bądz do dotarcia do weterynarza lub powrotu oddechu.</p>
+      </div>
+    </div>
+
+    <div id="main_cat_foreign_nose_screen" class="relative">
+      <img class="background" src="img/second-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Nie usuwaj ciała obcego, zastosuj zimny układ i udaj się do weterynarza.</p>
+      </div>
+    </div>
+
+    <div id="main_cat_foreign_eye_screen" class="relative">
+      <img class="background" src="img/second-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Zablokuj kotu dostęp do oka, przepłucz je kroplami do oczu lub solą fizjologiczną. Jeśli to nie pomoże skontaktuj się ze swoim weterynarzem.</p>
+      </div>
+    </div>
+
+    <div id="main_cat_foreign_mouth_screen" class="relative">
+      <img class="background" src="img/second-cat-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Usuń ciało obce palcami lub pęsetą. Jeśli ciało obce przedostało się do przełyku powinno się skontaktować z weterynarzem i postępować z jego instrukcjami, jeśli to jest z jakiegoś powodu niemożliwe chwyć kota za tylne łapy i lekko nim potrząśnij. Jeżeli to nie pomoże poklep kota mocno po plecach. Jeśli żadny z poprzednich kroków nie pomógł weź kota do weterynarza.</p>
+      </div>
+    </div>
+
   </body>
 </html>
