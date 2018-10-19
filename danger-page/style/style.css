@@ -13,6 +13,42 @@
 #dog_screen {
   display: none;
 }
+#main_dog_unconcious_screen {
+  display: none;
+}
+#main_dog_burn_screen {
+  display: none;
+}
+#main_dog_burn_termal_screen {
+  display: none;
+}
+#dog_burn_termal_first_screen {
+  display: none;
+}
+#dog_burn_termal_second_screen {
+  display: none;
+}
+#main_dog_burn_chemical_screen {
+  display: none;
+}
+#main_dog_burn_fat_screen {
+  display: none;
+}
+#main_dog_burn_mouth_screen {
+  display: none;
+}
+#main_dog_bleeding_screen{
+  display: none;
+}
+#dog_bleeding_first_screen {
+  display: none;
+}
+#dog_bleeding_second_screen {
+  display: none;
+}
+#main_dog_foreign_screen{
+  display: none;
+}
 #cat_screen {
   display: none;
 }
@@ -49,31 +85,40 @@
 #cat_bleeding_second_screen {
   display: none;
 }
-#main_cat_fracture_screen{
+#main_dog_fracture_screen {
   display: none;
 }
-#cat_fracture_first_screen{
+#dog_fracture_first_screen {
   display: none;
 }
-#cat_fracture_second_screen{
+#dog_fracture_second_screen {
+  display: none;
+}
+#main_cat_fracture_screen {
+  display: none;
+}
+#cat_fracture_first_screen {
+  display: none;
+}
+#cat_fracture_second_screen {
   display: none;
 }
 #main_cat_foreign_screen {
   display: none;
 }
-#main_cat_foreign_throat_screen{
+#main_cat_foreign_throat_screen {
   display: none;
 }
-#cat_foreign_throat_first_screen{
+#cat_foreign_throat_first_screen {
   display: none;
 }
-#cat_foreign_throat_second_screen{
+#cat_foreign_throat_second_screen {
   display: none;
 }
-#cat_foreign_throat_first_problem_screen{
+#cat_foreign_throat_first_problem_screen {
   display: none;
 }
-#cat_foreign_throat_second_problem_screen{
+#cat_foreign_throat_second_problem_screen {
   display: none;
 }
 #main_cat_foreign_nose_screen {

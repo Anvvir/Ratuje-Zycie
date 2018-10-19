@@ -21,6 +21,66 @@ function animalchoice() {
     document.getElementById("dog_screen").style.display = "block";
     document.getElementById("animal_screen").style.display = "none";
   }
+    function main_unconcious_dog_choice() {
+      document.getElementById("main_dog_unconcious_screen").style.display = "block";
+      document.getElementById("dog_screen").style.display = "none";
+    }
+    function main_burn_dog_choice() {
+      document.getElementById("dog_screen").style.display = "none";
+      document.getElementById("main_dog_burn_screen").style.display = "block";
+    }
+      function main_dog_burn_termal_choice() {
+        document.getElementById("main_dog_burn_screen").style.display = "none";
+        document.getElementById("main_dog_burn_termal_screen").style.display = "block";
+      }
+        function dog_burn_termal_first_choice() {
+          document.getElementById("main_dog_burn_termal_screen").style.display = "none";
+          document.getElementById("dog_burn_termal_first_screen").style.display = "block";
+        }
+        function dog_burn_termal_second_choice() {
+          document.getElementById("main_dog_burn_termal_screen").style.display = "none";
+          document.getElementById("dog_burn_termal_second_screen").style.display = "block";
+        }
+      function main_dog_burn_chemical_choice() {
+        document.getElementById("main_dog_burn_screen").style.display = "none";
+        document.getElementById("main_dog_burn_chemical_screen").style.display = "block";
+      }
+      function main_dog_burn_fat_choice() {
+        document.getElementById("main_dog_burn_screen").style.display = "none";
+        document.getElementById("main_dog_burn_fat_screen").style.display = "block";
+      }
+      function main_dog_burn_mouth_choice() {
+        document.getElementById("main_dog_burn_screen").style.display = "none";
+        document.getElementById("main_dog_burn_mouth_screen").style.display = "block";
+      }
+    function main_bleeding_dog_choice() {
+      document.getElementById("dog_screen").style.display = "none";
+      document.getElementById("main_dog_bleeding_screen").style.display = "block";
+    }
+      function dog_bleeding_first_choice() {
+        document.getElementById("main_dog_bleeding_screen").style.display = "none";
+        document.getElementById("dog_bleeding_first_screen").style.display = "block";
+      }
+      function dog_bleeding_second_choice() {
+        document.getElementById("main_dog_bleeding_screen").style.display = "none";
+        document.getElementById("dog_bleeding_second_screen").style.display = "block";
+      }
+    function main_fracture_dog_choice() {
+      document.getElementById("dog_screen").style.display = "none";
+      document.getElementById("main_dog_fracture_screen").style.display = "block";
+    }
+      function dog_fracture_first_choice() {
+        document.getElementById("main_dog_fracture_screen").style.display = "none";
+        document.getElementById("dog_fracture_first_screen").style.display = "block";
+      }
+      function dog_fracture_second_choice() {
+        document.getElementById("main_dog_fracture_screen").style.display = "none";
+        document.getElementById("dog_fracture_first_screen").style.display = "block";
+      }
+    function main_foreign_dog_choice() {
+      document.getElementById("main_dog_foreign_screen").style.display = "block";
+      document.getElementById("dog_screen").style.display = "none";
+    }
   function catchoice() {
     document.getElementById("cat_screen").style.display = "block";
     document.getElementById("animal_screen").style.display = "none";

@@ -144,36 +144,286 @@
       <button onclick="homechoice()">
         <h1>W jakiej sytuacji znajduje się twój pupil?</h1>
       </button>
-      <button>
+      <button onclick="main_unconcious_dog_choice()">
         <figure class="first-logo">
           <img src="img/zzz-logo.png" alt="firstlogo">
           <figcaption>Nieprzytomność</figcaption>
         </figure>
       </button>
-      <button>
+      <button onclick="main_burn_dog_choice()">
         <figure class="second-logo">
           <img src="img/fire-logo.png" alt="secondlogo">
           <figcaption>Poparzenie</figcaption>
         </figure>
       </button>
-      <button>
+      <button onclick="main_bleeding_dog_choice()">
         <figure class="third-logo">
           <img src="img/heart-logo.png" alt="thirdlogo">
           <figcaption>Krwawienie</figcaption>
         </figure>
       </button>
-      <button>
+      <button onclick="main_foreign_dog_choice()">
         <figure class="forth-logo">
           <img src="img/lungs-logo.png" alt="forthlogo">
           <figcaption>Ciało Obce</figcaption>
         </figure>
       </button>
-      <button>
+      <button onclick="main_fracture_dog_choice()">
         <figure class="fifth-logo">
           <img src="img/bone-logo.png" alt="fifthlogo">
           <figcaption>Złamanie</figcaption>
         </figure>
       </button>
+    </div>
+
+    <div id="main_dog_unconcious_screen" class="relative">
+      <img class="background" src="img/first-dog-unconcious.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Jeśli pies stracił przytomność:</br>-Zapewnij psu dostęp do powietrza, chłód, jeśli jest gorąco, ciepło, jeśli jest zimno.
+        </br>- Sprawdz tętno psa za jego przednią łapą na boku oraz zwróć uwage czy oddycha. Jeżeli pies przestał oddychać, jak najszybciej musi trafić do weterynarza.
+        </br>- Jeżeli pies przestał oddychać, jak najszybciej musi trafić do weterynarza.
+        </br>- Połóż go na boku, podłóż coś pod jego głowę.
+        </br>- Udrożnij drogi oddechowe, wyprostuj język zwierzęciu po czym zamknij mu pysk.
+        </br>- W zależności od wielkości psa wykonuj 20 wdechów na minutę przez nos lub dla małych pupili przez nos i usta.
+        </br>- Jeżeli zatrzymała się akcja serca, rób średnio 15 uścisków do połowy lub 3/4 klatki piersiowej na przemian z 2-3 wdechami.
+        </br>- Jeśli pies jest mały rób to jedną ręką, z jednego boku sciskając kciukiem a z drugiej resztą ręki.
+        </br>- Kontynuuj do przybycia do weterynarza lub powrotu funkcji życiowych.</p>
+      </div>
+    </div>
+
+    <div id="main_dog_burn_screen" class="relative">
+      <img class="background" src="img/first-dog-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Jaki jest rodzaj oparzeń?</h1>
+      </button>
+      <button onclick="main_dog_burn_termal_choice()">
+        <figure class="first-logo">
+          <img src="img/I-logo.png" alt="firstlogo">
+          <figcaption>Ogniem/termiczne</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_dog_burn_chemical_choice()">
+        <figure class="second-logo">
+          <img src="img/II-logo.png" alt="secondlogo">
+          <figcaption>Środkami chemicznymi</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_dog_burn_fat_choice()">
+        <figure class="forth-logo">
+          <img src="img/III-logo.png" alt="forthlogo">
+          <figcaption>Gorącym tłuszczem</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_dog_burn_mouth_choice()">
+        <figure class="fifth-logo">
+          <img src="img/IV-logo.png" alt="fifthlogo">
+          <figcaption>W jamie ustnej</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="main_dog_burn_termal_screen" class="relative">
+      <img class="background" src="img/second-dog-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Czy obrażenia są poważne lub na dużym obszarze?</h1>
+      </button>
+      <button onclick="dog_burn_termal_first_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Tak</figcaption>
+        </figure>
+      </button>
+      <button onclick="dog_burn_termal_second_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Nie</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="dog_burn_termal_first_screen" class="relative">
+      <img class="background" src="img/third-dog-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>Zapewnij psu ciepło, z zachowaniem delikatności zabierz go do weterynarza.</p>
+      </div>
+    </div>
+
+    <div id="dog_burn_termal_second_screen" class="relative">
+      <img class="background" src="img/third-dog-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>Polej je chłodną wodą, załóż nieprzylegający opatrunek i skonsultuj się z weterynarzem.</p>
+      </div>
+    </div>
+
+    <div id="main_dog_burn_chemical_screen" class="relative">
+      <img class="background" src="img/third-dog-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Delikatnie opłucz miejsce oparzenia chłodną wodą, jeśli środkiem był kwas, dodaj do niej sodę lub węglan sodu.
+            </br>- Umyj miejsce szamponem dla psów.
+            </br>- Udaj się do weterynarza.
+          </p>
+      </div>
+    </div>
+
+    <div id="main_dog_burn_fat_screen" class="relative">
+      <img class="background" src="img/third-dog-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Przemyj miejsce oparzenia szamponem dla psów.
+            </br>- Udaj się do weterynarza.
+          </p>
+      </div>
+    </div>
+
+    <div id="main_dog_burn_mouth_screen" class="relative">
+      <img class="background" src="img/third-dog-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Połóż psa na boku, przepłucz pysk wodą, jeśli pies się broni, nie rób tego.
+            </br>- Zabierz psa do weterynarza.
+            </br>- Połóż psa na prawym boku, podłóż coś pod jego głowę. Delikatnie w zależności od wielkości psa wykonuj 20 wdechów na minutę przez nos lub dla małych pupili przez nos i usta..
+            </br>- Jeżeli zatrzymała się akcja serca, rób średnio 15 uścisków do połowy lub 3/4 klatki piersiowej na przemian z 2-3 wdechami.
+            </br>- Jeśli pies jest mały rób to jedną ręką, z jednego boku sciskając kciukiem a z drugiej resztą ręki.
+          </p>
+      </div>
+    </div>
+
+    <div id="main_dog_bleeding_screen" class="relative">
+      <img class="background" src="img/first-dog-bleeding.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Krew ma jasny czy ciemny kolor?</h1>
+      </button>
+      <button onclick="dog_bleeding_first_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Jasny</figcaption>
+        </figure>
+      </button>
+      <button onclick="dog_bleeding_second_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Ciemny</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="dog_bleeding_first_screen" class="relative">
+      <img class="background" src="img/second-dog-bleeding.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Jeśli krwawi przednia łapa:
+        </br>-Uciskaj miejsce pod pachą dwoma palcami
+        </br></br>Jeśli krwawi tylna łapa:
+        </br>-Uciskaj miejsce sprawdzania tętna na udzie:
+        </br></br>Jeśli krwawi ogon:
+        </br>-Uciskaj zewnętrzną stronę kciukiem, spód resztą palców</p>
+      </div>
+    </div>
+
+    <div id="dog_bleeding_second_screen" class="relative">
+      <img class="background" src="img/second-dog-bleeding.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>-Dezynfekuj ranę, połóż na nią gazę naciskając ją. Jeśli przesiąknie, dodaj kolejne.
+          </br>-Przy dużym krwawieniu obwiąż gazy bandażem, na nim w okolicach rany połóż coś twardego, np. nierozwinięty bandaż i obwiń go.
+          </br>-Udaj się do weterynarza. Jeżeli pies przestał oddychać, połóż go na boku, podłóż coś pod jego głowę i wykonuj 20 wdechów na minutę przez nos lub nos i usta jeśli to szczeniak.
+          </br>-Jeżeli zatrzymała się akcja serca, rób 2-3 uciski w połowie klatki piersiowej na przemian z 15 wdechem i co 10 sekund.
+          </br>-Kontynuuj do czasu powrotu funkcji życiowych lub przybycia do weterynarza.</p>
+      </div>
+    </div>
+
+    <div id="main_dog_fracture_screen" class="relative">
+      <img class="background" src="img/first-dog-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Złamanie jest otwarte czy zamknięte?</h1>
+      </button>
+      <button onclick="dog_fracture_first_choice()">
+        <figure class="first-logo">
+          <img src="img/approved-logo.png" alt="firstlogo">
+          <figcaption>Otwarte</figcaption>
+        </figure>
+      </button>
+      <button onclick="dog_fracture_second_choice()">
+        <figure class="second-logo">
+          <img src="img/denied-logo.png" alt="secondlogo">
+          <figcaption>Zamknięte</figcaption>
+        </figure>
+      </button>
+    </div>
+
+    <div id="dog_fracture_first_screen" class="relative">
+      <img class="background" src="img/second-dog-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+          - Zdezynfekuj ranę jodyną, w miejsce krwawienia przyłóż gazę i obwiń ją bandażem.
+          </br>- Jeśli krwawienie jest duże, na miejscu krwawienia przyłóż twardy obiekt, np. nierozwinięty bandaż i owiń go.
+          </br>- Usztywnij kończynę używając np. patyków i obwiąż je bandażem lub chustą.
+          </br>- Udaj się z psem do weterynarza. Jeżeli pies przestał oddychać, Połóż psa na prawym boku, podłóż coś pod jego głowę. Delikatnie wykonuj 20 wdechów na minutę przez nos.
+          </br>- Jeżeli zatrzymała się akcja serca, rób 2-3 uciski w połowie klatki piersiowej na przemian z wdechem.
+          </br>- Kontynuuj do czasu powrotu funkcji życiowych lub przybycia do weterynarza.
+          </p>
+      </div>
+    </div>
+
+    <div id="dog_fracture_second_screen" class="relative">
+      <img class="background" src="img/second-dog-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Usztywnij kończynę np. patykami i obwiąż je bandażem lub chustą i zabierz go do weterynarza.
+            </br>- Połóż psa na prawym boku, podłóż coś pod jego głowę. Delikatnie wykonuj 20 wdechów na minutę przez nos.
+            </br>- Jeżeli zatrzymała się akcja serca, rób 2-3 uciski w połowie klatki piersiowej na przemian z wdechem.
+            </br>- Kontynuuj do czasu powrotu funkcji życiowych lub przybycia do weterynarza.
+          </p>
+      </div>
+    </div>
+
+    <div id="main_dog_foreign_screen" class="relative">
+      <img class="background" src="img/first-dog-foreign.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+        <p>Jeśli pies ma ciało obce w pysku:
+        </br>- Wyciągnij język psa i postaraj się wyciągnąć ciało obce pęsetą.
+        </br>- Podnieś psa do góry nogami lub za tylne nogi i mocno nim potrząśnij.
+        </br>- W tej samej pozycji naciskaj środek brzucha psa.
+        </br>- Sprawdź, czy ciało obce nie wydostało się na tyle, że można je wyciągnąć.
+        </br>- Poklep psa pomiędzy łopatkami.
+        </br>- Koniecznie zabierz psa do weterynarza. Jeśli przestał oddychać, wykonaj wdechy ratownicze.
+        </br>- Połóż psa na prawym boku, podłóż coś pod jego głowę. Delikatnie wykonuj (w zależności od wielkości psa) 20 wdechów na minutę przez nos lub nos i usta dla szczeniaków.
+        </br>- Jeżeli zatrzymała się akcja serca, rób 2-3 uciski w połowie klatki piersiowej na przemian z 15 wdechem i co 10 sekund.
+        </br>- Jeśli pies jest mały rób to jedną ręką, z jednego boku sciskając kciukiem a z drugiej resztą ręki.
+        </br>- Wykonuj czynności do momentu powrotu funkcji życiowych lub dotarcia do weterynarza.</p>
+      </div>
     </div>
 
     <div id="cat_screen" class="relative">
@@ -466,13 +716,13 @@
       <button onclick="cat_foreign_throat_first_problem_choice()">
         <figure class="first-logo">
           <img src="img/I-logo.png" alt="firstlogo">
-          <figcaption>Nie oddycha, nie ma tętna.</figcaption>
+          <figcaption>Nie oddycha i nie ma tętna.</figcaption>
         </figure>
       </button>
       <button onclick="cat_foreign_throat_second_problem_choice()">
         <figure class="second-logo">
           <img src="img/II-logo.png" alt="secondlogo">
-          <figcaption>Nie oddycha, ma tętno.</figcaption>
+          <figcaption>Nie oddycha ale ma tętno.</figcaption>
         </figure>
       </button>
     </div>
