@@ -9,10 +9,82 @@ function humanchoice() {
     document.getElementById("adult_screen").style.display = "block";
     document.getElementById("human_screen").style.display = "none";
   }
+    function main_adult_unconcious_choice() {
+      document.getElementById("main_adult_unconcious_screen").style.display = "block";
+      document.getElementById("adult_screen").style.display = "none";
+    }
+    function main_adult_burn_choice() {
+      document.getElementById("main_adult_burn_screen").style.display = "block";
+      document.getElementById("adult_screen").style.display = "none";
+    }
+      function main_adult_burn_IandII_choice() {
+        document.getElementById("adult_burn_first_screen").style.display = "block";
+        document.getElementById("main_adult_burn_screen").style.display = "none";
+      }
+      function main_adult_burn_III_choice() {
+        document.getElementById("adult_burn_second_screen").style.display = "block";
+        document.getElementById("main_adult_burn_screen").style.display = "none";
+      }
+      function main_adult_burn_fat_choice() {
+        document.getElementById("adult_burn_third_screen").style.display = "block";
+        document.getElementById("main_adult_burn_screen").style.display = "none";
+      }
+      function main_adult_burn_chemical_choice() {
+        document.getElementById("adult_burn_forth_screen").style.display = "block";
+        document.getElementById("main_adult_burn_screen").style.display = "none";
+      }
+      function main_adult_burn_electricity_choice() {
+        document.getElementById("adult_burn_fifth_screen").style.display = "block";
+        document.getElementById("main_adult_burn_screen").style.display = "none";
+      }
+    function main_bleeding_adult_choice() {
+      document.getElementById("main_adult_bleeding_screen").style.display = "block";
+      document.getElementById("adult_screen").style.display = "none";
+    }
+      function adult_bleeding_first_choice() {
+        document.getElementById("adult_bleeding_first_screen").style.display = "block";
+        document.getElementById("main_adult_bleeding_screen").style.display = "none";
+      }
+      function adult_bleeding_second_choice() {
+        document.getElementById("adult_bleeding_second_screen").style.display = "block";
+        document.getElementById("main_adult_bleeding_screen").style.display = "none";
+      }
+      function adult_bleeding_third_choice() {
+        document.getElementById("adult_bleeding_third_screen").style.display = "block";
+        document.getElementById("main_adult_bleeding_screen").style.display = "none";
+      }
+    function main_choking_adult_choice() {
+      document.getElementById("main_adult_choking_screen").style.display = "block";
+      document.getElementById("adult_screen").style.display = "none";
+    }
+    function main_fracture_adult_choice() {
+      document.getElementById("main_adult_fracture_screen").style.display = "block";
+      document.getElementById("adult_screen").style.display = "none";
+    }
+      function main_adult_fracture_closed_choice() {
+        document.getElementById("adult_fracture_first_screen").style.display = "block";
+        document.getElementById("main_adult_fracture_screen").style.display = "none";
+      }
+      function main_adult_fracture_open_choice() {
+        document.getElementById("adult_fracture_second_screen").style.display = "block";
+        document.getElementById("main_adult_fracture_screen").style.display = "none";
+      }
+      function main_adult_fracture_dislocation_choice() {
+        document.getElementById("adult_fracture_third_screen").style.display = "block";
+        document.getElementById("main_adult_fracture_screen").style.display = "none";
+      }
   function childchoice() {
     document.getElementById("child_screen").style.display = "block";
     document.getElementById("human_screen").style.display = "none";
   }
+    function main_reanimation_child_choice() {
+      document.getElementById("main_child_reanimation_screen").style.display = "block";
+      document.getElementById("child_screen").style.display = "none";
+    }
+    function main_choking_child_choice() {
+      document.getElementById("main_child_choking_screen").style.display = "block";
+      document.getElementById("child_screen").style.display = "none";
+    }
 function animalchoice() {
   document.getElementById("animal_screen").style.display = "block";
   document.getElementById("main_screen").style.display = "none";

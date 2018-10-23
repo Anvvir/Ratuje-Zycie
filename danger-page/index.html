@@ -26,7 +26,6 @@
         </figure>
       </button>
     </div>
-
     <div id="human_screen" class="relative">
       <img class="background" src="img/adultorchild.jpg" alt="background">
       <button onclick="homechoice()">
@@ -45,81 +44,378 @@
         </figure>
       </button>
     </div>
-
     <div id="adult_screen" class="relative">
       <img class="background" src="img/adult.jpg" alt="background">
       <button onclick="homechoice()">
         <h1>W jakiej sytuacji znajduje się ta osoba?</h1>
       </button>
-      <button>
+      <button onclick="main_adult_unconcious_choice()">
         <figure class="first-logo">
           <img src="img/zzz-logo.png" alt="firstlogo">
           <figcaption>Nieprzytomność</figcaption>
         </figure>
       </button>
-      <button>
+      <button onclick="main_adult_burn_choice()">
         <figure class="second-logo">
           <img src="img/fire-logo.png" alt="secondlogo">
           <figcaption>Poparzenie</figcaption>
         </figure>
       </button>
-      <button>
+      <button onclick="main_bleeding_adult_choice()">
         <figure class="third-logo">
           <img src="img/heart-logo.png" alt="thirdlogo">
           <figcaption>Krwawienie</figcaption>
         </figure>
       </button>
-      <button>
+      <button onclick="main_choking_adult_choice()">
         <figure class="forth-logo">
           <img src="img/lungs-logo.png" alt="forthlogo">
           <figcaption>Ciało Obce</figcaption>
         </figure>
       </button>
-      <button>
+      <button onclick="main_fracture_adult_choice()">
         <figure class="fifth-logo">
           <img src="img/bone-logo.png" alt="fifthlogo">
           <figcaption>Złamanie</figcaption>
         </figure>
       </button>
     </div>
+    <div id="main_adult_unconcious_screen" class="relative">
+      <img class="background" src="img/first-adult-unconcious.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            </br>- Połóż osobę na plecach, zapewnij jej dostęp do świeżego powietrza.
+            </br>- Sprawdź oddech, jeśli nie występuje, wezwij pogotowie i rozpocznij resuscytację.
+            </br>- Uciskaj klatkę piersiową prostopadle do mostka (głębokość 4-5 cm, 100 uciśnięć/min).
+            </br>- Po 30 uciśnięciach, zaciskając nos, wykonaj 2 wdechy.
+            </br>- Kontynuuj do czasu przybycia pogotowia lub odzyskania funkcji życiowych.
+          </p>
+      </div>
+    </div>
+    <div id="main_adult_burn_screen" class="relative">
+      <img class="background" src="img/first-adult-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Jaki to rodzaj oparzeń?</h1>
+      </button>
+      <button onclick="main_adult_burn_IandII_choice()">
+        <figure class="first-logo">
+          <img src="img/I-logo.png" alt="firstlogo">
+          <figcaption>1 i 2 stopnia</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_adult_burn_III_choice()">
+        <figure class="second-logo">
+          <img src="img/II-logo.png" alt="secondlogo">
+          <figcaption>3 stopnia</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_adult_burn_fat_choice()">
+        <figure class="third-logo">
+          <img src="img/III-logo.png" alt="forthlogo">
+          <figcaption>Gorący tłuszcz</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_adult_burn_chemical_choice()">
+        <figure class="forth-logo">
+          <img src="img/IV-logo.png" alt="fifthlogo">
+          <figcaption>Środki chemiczne</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_adult_burn_electricity_choice()">
+        <figure class="fifth-logo">
+          <img src="img/V-logo.png" alt="firstlogo">
+          <figcaption>Oparzenia elektryczne</figcaption>
+        </figure>
+      </button>
+    </div>
+    <div id="adult_burn_first_screen" class="relative">
+      <img class="background" src="img/second-adult-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Zdejmij biżuterię z okolic poparzenia.
+            </br>- Schładzaj oparzenie chłodną wodą.
+            </br>- Użyj maści na poparzenia, nałóż opatrunek.
+          </p>
+      </div>
+    </div>
+    <div id="adult_burn_second_screen" class="relative">
+      <img class="background" src="img/second-adult-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Natychmiast wezwij pogotowie.
+            </br>- Dbaj o ciepło osoby i zadbaj o dostęp do świeżego powietrza, jeśli straci przytomność, rozpocznij reanimację.
+            </br>- Uciskaj klatkę piersiową prostopadle do mostka (głębokość 4-5 cm, 100 uciśnięć/min).
+            </br>- Po 30 uciśnięciach, zaciskając nos, wykonaj 2 wdechy.
+            </br>- Kontynuuj do czasu przybycia pogotowia lub odzyskania funkcji życiowych.
 
+          </p>
+      </div>
+    </div>
+    <div id="adult_burn_third_screen" class="relative">
+      <img class="background" src="img/second-adult-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Schładzaj poparzenia wodą.
+            </br>- Wezwij pogotowie w przypadku większych/poważniejszych poparzeń.
+          </p>
+      </div>
+    </div>
+    <div id="adult_burn_forth_screen" class="relative">
+      <img class="background" src="img/second-adult-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Wezwij pogotowie.
+            </br>- W rękawiczkach zdejmij skażoną odzież.
+            </br>- Płucz miejsce około 30 minut, jeśli osoba połknęła substancję, podawaj mu duże ilości wody niegazowanej.
+          </p>
+      </div>
+    </div>
+    <div id="adult_burn_fifth_screen" class="relative">
+      <img class="background" src="img/second-adult-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Odciągnij osobę od źródła prądu nieprzewodzącym go przedmiotem.
+            </br>- Wezwij pogotowie, zapewnij dostęp do świeżego powietrza.
+            </br>- W przypadku utraty czynności życiowych, rozpocznij reanimację.
+            </br>- Uciskaj klatkę piersiową prostopadle do mostka (głębokość 4-5 cm, 100 uciśnięć/min).
+            </br>- Po 30 uciśnięciach, zaciskając nos, wykonaj 2 wdechy.
+            </br>- Kontynuuj do czasu przybycia pogotowia lub odzyskania funkcji życiowych.
+          </p>
+      </div>
+    </div>
+    <div id="main_adult_bleeding_screen" class="relative">
+      <img class="background" src="img/first-adult-bleeding.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Jaki to rodzaj krwawienia?</h1>
+      </button>
+      <button onclick="adult_bleeding_first_choice()">
+        <figure class="first-logo">
+          <img src="img/I-logo.png" alt="firstlogo">
+          <figcaption>Żylne</figcaption>
+        </figure>
+      </button>
+      <button onclick="adult_bleeding_second_choice()">
+        <figure class="second-logo">
+          <img src="img/III-logo.png" alt="secondlogo">
+          <figcaption>Tętniczne</figcaption>
+        </figure>
+      </button>
+      <button onclick="adult_bleeding_third_choice()">
+        <figure class="third-logo">
+          <img src="img/II-logo.png" alt="forthlogo">
+          <figcaption>Wewnętrzne</figcaption>
+        </figure>
+      </button>
+    </div>
+    <div id="adult_bleeding_first_screen" class="relative">
+        <img class="background" src="img/second-adult-bleeding.jpg" alt="background">
+        <button onclick="homechoice()">
+          <h1>Ratuje Życie</h1>
+        </button>
+        <div class="paragraph">
+            <p>
+              Krwawienie żylne charakteryzuje się ciemniejszym odcieniem krwi oraz rowómiernym wypływem krwi
+              </br></br>- Zdezynfekuj ranę jodyną lub wodą utlenioną, nałóż na ranę gazę i obwiąż bandażem.
+              </br>- Jeśli krwawienie jest duże, przyłóż do opatrunku w okolicach rany twardy przedmiot, np. nierozwinięty bandaż i obwiń go chustą lub bandażem.
+              </br>- Jeśli w ranie jest ciało stałe, unieruchom je, nie wyciągaj, udaj się z osobą do szpitala.
+            </p>
+        </div>
+      </div>
+    <div id="adult_bleeding_second_screen" class="relative">
+        <img class="background" src="img/second-adult-bleeding.jpg" alt="background">
+        <button onclick="homechoice()">
+          <h1>Ratuje Życie</h1>
+        </button>
+        <div class="paragraph">
+            <p>
+              Krwawienie tętniczne charakteryzuje się jaskrawą krwią oraz wytryskiwaniem jej z rany według rytmu bicia serca.
+              </br></br>- Natychmiast wezwij pogotowie.
+              </br>- Unieś kończynę nad poziom ciała, zastosuj opatrunek z gazy i bandaża, uciskając ranę.
+              </br>- Uciskaj tętnicę, z której występuje krwawienie: ramię, okolice szyi- nad obojczykiem, udo - połowa pachwiny.
+              </br>- Jeśli osoba przestała oddychać, rozpocznij reanimację.
+              </br>- Uciskaj klatkę piersiową prostopadle do mostka (głębokość 4-5 cm, 100 uciśnięć/min).
+              </br>- Po 30 uciśnięciach, zaciskając nos, wykonaj 2 wdechy.
+              </br>- Kontynuuj do czasu przybycia pogotowia lub odzyskania funkcji życiowych.
+            </p>
+        </div>
+      </div>
+    <div id="adult_bleeding_third_screen" class="relative">
+        <img class="background" src="img/second-adult-bleeding.jpg" alt="background">
+        <button onclick="homechoice()">
+          <h1>Ratuje Życie</h1>
+        </button>
+        <div class="paragraph">
+            <p>
+              - Natychmiast wezwij pogotowie.
+              </br>- Ułóż osobę w pozycji leżącej, ogranicz jej ruchy, nie podawaj jedzenia ani picia.
+              </br>- Jeśli przestała oddychać, rozpocznij reanimację.
+              </br>- Uciskaj klatkę piersiową prostopadle do mostka (głębokość 4-5 cm, 100 uciśnięć/min).
+              </br>- Po 30 uciśnięciach, zaciskając nos, wykonaj 2 wdechy.
+              </br>- Kontynuuj do czasu przybycia pogotowia lub odzyskania funkcji życiowych.
+            </p>
+        </div>
+      </div>
+    <div id="main_adult_choking_screen" class="relative">
+      <img class="background" src="img/first-adult-choking.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Pochyl osobę do przodu i 5 razy uderz pomiędzy łopatkami
+            </br>- 5 razy uciśnij gwałtownie nadbrzusze powyżej pępka.
+            </br>- Wykonaj uderzenia i uciski na przemian.
+            </br>- Sprowokuj wymioty łaskocząc palcem osoby tylną ścianę jej gardła.
+            </br>- Jeśli poszkodowany stracił przytomność, wezwij pogotowie.
+            </br>- Sprawdź oddech osoby, jeśli nie występuje, rozpocznij reanimację.
+            </br>- Uciskaj klatkę piersiową prostopadle do mostka (głębokość 4-5 cm, 100 uciśnięć/min).
+            </br>- Po 30 uciśnięciach, zaciskając nos, wykonaj 2 wdechy.
+            </br>- Kontynuuj do czasu przybycia pogotowia lub odzyskania funkcji życiowych.
+          </p>
+      </div>
+    </div>
+    <div id="main_adult_fracture_screen" class="relative">
+      <img class="background" src="img/first-adult-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Jaki to rodzaj złamań?</h1>
+      </button>
+      <button onclick="main_adult_fracture_closed_choice()">
+        <figure class="first-logo">
+          <img src="img/I-logo.png" alt="firstlogo">
+          <figcaption>Złamanie zamknięte</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_adult_fracture_open_choice()">
+        <figure class="second-logo">
+          <img src="img/II-logo.png" alt="secondlogo">
+          <figcaption>Złamanie otwarte</figcaption>
+        </figure>
+      </button>
+      <button onclick="main_adult_fracture_dislocation_choice()">
+        <figure class="third-logo">
+          <img src="img/III-logo.png" alt="forthlogo">
+          <figcaption>Zwichnięcie</figcaption>
+        </figure>
+      </button>
+    </div>
+    <div id="adult_fracture_first_screen" class="relative">
+      <img class="background" src="img/second-adult-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Zdezynfekuj miejsce krwawienia jodyną, przyłóż gazę i delikatnie zabandażuj.
+            </br>- Usztywnij 2 sąsiadujące ze złamaniem stawy, jeśli złamana jest ręka, przymocuj ją do klatki piersiowej chustą,.
+            </br>- Wezwij pogotowie, jeśli wystąpi wstrząs, zadbaj o ciepło i odpowiednie dotlenienie.
+          </p>
+      </div>
+    </div>
+    <div id="adult_fracture_second_screen" class="relative">
+      <img class="background" src="img/second-adult-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Usztywnij 2 sąsiadujące ze złamaniem stawy, jeśli złamana jest ręka, przymocuj ją do klatki piersiowej chustą.
+          </p>
+      </div>
+    </div>
+    <div id="adult_fracture_third_screen" class="relative">
+      <img class="background" src="img/second-adult-fracture.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Poluźnij odzież/obuwie.
+            </br>- Unieruchom kończynę.
+            </br>- Wezwij pogotowie lub zawieź poszkodowanego do szpitala.
+          </p>
+      </div>
+    </div>
     <div id="child_screen" class="relative">
       <img class="background" src="img/child.jpg" alt="background">
       <button onclick="homechoice()">
-        <h1>W jakiej sytuacji znajduje się ta osoba?</h1>
+        <h1>W jakiej sytuacji znajduje się twój dziecko?</h1>
       </button>
-      <button>
+      <button onclick="main_reanimation_child_choice()">
         <figure class="first-logo">
-          <img src="img/zzz-logo.png" alt="firstlogo">
-          <figcaption>Nieprzytomność</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="second-logo">
-          <img src="img/fire-logo.png" alt="secondlogo">
-          <figcaption>Poparzenie</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="third-logo">
           <img src="img/heart-logo.png" alt="thirdlogo">
-          <figcaption>Krwawienie</figcaption>
+          <figcaption>Reanimacja</figcaption>
         </figure>
       </button>
-      <button>
-        <figure class="forth-logo">
+      <button onclick="main_choking_child_choice()">
+        <figure class="second-logo">
           <img src="img/lungs-logo.png" alt="forthlogo">
-          <figcaption>Ciało Obce</figcaption>
-        </figure>
-      </button>
-      <button>
-        <figure class="fifth-logo">
-          <img src="img/bone-logo.png" alt="fifthlogo">
-          <figcaption>Złamanie</figcaption>
+          <figcaption>Duszenie</figcaption>
         </figure>
       </button>
     </div>
-
+    <div id="main_child_reanimation_screen" class="relative">
+      <img class="background" src="img/first-child.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Jeśli dziecko nie oddycha, przytrzymując odchyloną głowę, w przypadku niemowlaka, wdychaj powietrze (1-1,5 sekundy) obejmując usta i nos, u dziecka powyżej roku, przez usta zaciskając nos (1 sekunda).
+            </br>- Jeżeli dziecko nie ma tętna (okolice szyi lub tętnicy ramiennej), zacznij wykonywać masaż serca na przemian z wdechami (5 uciśnięć - 1 wdech).
+            </br>- Uciskaj klatkę piersiową 1 cm. od linii międzysutkowej dwoma palcami w tempie około 100 razy na minutę.
+            </br>- Jeśli tętno wróci, lecz oddechu nadal nie ma, kontynuuj jedynie sztuczne oddychanie w tempie 1 oddechu na 3 sekundy.
+            </br>- Kontynuuj do przywrócenia funkcji życiowych lub przyjazdu karetki.
+          </p>
+      </div>
+    </div>
+    <div id="main_child_choking_screen" class="relative">
+      <img class="background" src="img/first-child.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Jeśli w gardle dziecka jest ciało obce, postaraj się je wyciągnąć.
+            </br>- Połóż dziecko na przedramieniu lub kolanie twarzą do dołu, wykonaj 5 uderzeń nadgarstkiem między łopatkami.
+            </br>- Połóż dziecko na plecach, u niemowląt uciskaj klatkę piersiową 1 cm. od linii międzysutkowej, u dzieci powyżej roku życia nadbrzusze (5 ucisków dwoma palcami).
+            </br>- Powtarzaj uderzanie i uciski, jeśli ciało obce wydostało się wystarczająco, wyciągnij je.
+            </br>- Jeśli dziecko straciło funkcje życiowe, wezwij pogotowie i rozpocznij reanimację.
+          </p>
+      </div>
+    </div>
+    <div id="main_dog_burn_mouth_screen" class="relative">
+      <img class="background" src="img/third-dog-burn.jpg" alt="background">
+      <button onclick="homechoice()">
+        <h1>Ratuje Życie</h1>
+      </button>
+      <div class="paragraph">
+          <p>
+            - Połóż psa na boku, przepłucz pysk wodą, jeśli pies się broni, nie rób tego.
+            </br>- Zabierz psa do weterynarza.
+            </br>- Połóż psa na prawym boku, podłóż coś pod jego głowę. Delikatnie w zależności od wielkości psa wykonuj 20 wdechów na minutę przez nos lub dla małych pupili przez nos i usta..
+            </br>- Jeżeli zatrzymała się akcja serca, rób średnio 15 uścisków do połowy lub 3/4 klatki piersiowej na przemian z 2-3 wdechami.
+            </br>- Jeśli pies jest mały rób to jedną ręką, z jednego boku sciskając kciukiem a z drugiej resztą ręki.
+          </p>
+      </div>
+    </div>
     <div id="animal_screen" class="relative">
       <img class="background" src="img/catordog.jpg" alt="background">
       <button onclick="homechoice()">
@@ -138,7 +434,6 @@
         </figure>
       </button>
     </div>
-
     <div id="dog_screen" class="relative">
       <img class="background" src="img/dog.jpg" alt="background">
       <button onclick="homechoice()">
@@ -175,7 +470,6 @@
         </figure>
       </button>
     </div>
-
     <div id="main_dog_unconcious_screen" class="relative">
       <img class="background" src="img/first-dog-unconcious.jpg" alt="background">
       <button onclick="homechoice()">
@@ -193,7 +487,6 @@
         </br>- Kontynuuj do przybycia do weterynarza lub powrotu funkcji życiowych.</p>
       </div>
     </div>
-
     <div id="main_dog_burn_screen" class="relative">
       <img class="background" src="img/first-dog-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -224,7 +517,6 @@
         </figure>
       </button>
     </div>
-
     <div id="main_dog_burn_termal_screen" class="relative">
       <img class="background" src="img/second-dog-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -243,7 +535,6 @@
         </figure>
       </button>
     </div>
-
     <div id="dog_burn_termal_first_screen" class="relative">
       <img class="background" src="img/third-dog-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -253,7 +544,6 @@
           <p>Zapewnij psu ciepło, z zachowaniem delikatności zabierz go do weterynarza.</p>
       </div>
     </div>
-
     <div id="dog_burn_termal_second_screen" class="relative">
       <img class="background" src="img/third-dog-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -263,7 +553,6 @@
           <p>Polej je chłodną wodą, załóż nieprzylegający opatrunek i skonsultuj się z weterynarzem.</p>
       </div>
     </div>
-
     <div id="main_dog_burn_chemical_screen" class="relative">
       <img class="background" src="img/third-dog-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -277,7 +566,6 @@
           </p>
       </div>
     </div>
-
     <div id="main_dog_burn_fat_screen" class="relative">
       <img class="background" src="img/third-dog-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -290,7 +578,6 @@
           </p>
       </div>
     </div>
-
     <div id="main_dog_burn_mouth_screen" class="relative">
       <img class="background" src="img/third-dog-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -306,7 +593,6 @@
           </p>
       </div>
     </div>
-
     <div id="main_dog_bleeding_screen" class="relative">
       <img class="background" src="img/first-dog-bleeding.jpg" alt="background">
       <button onclick="homechoice()">
@@ -325,7 +611,6 @@
         </figure>
       </button>
     </div>
-
     <div id="dog_bleeding_first_screen" class="relative">
       <img class="background" src="img/second-dog-bleeding.jpg" alt="background">
       <button onclick="homechoice()">
@@ -340,7 +625,6 @@
         </br>-Uciskaj zewnętrzną stronę kciukiem, spód resztą palców</p>
       </div>
     </div>
-
     <div id="dog_bleeding_second_screen" class="relative">
       <img class="background" src="img/second-dog-bleeding.jpg" alt="background">
       <button onclick="homechoice()">
@@ -354,7 +638,6 @@
           </br>-Kontynuuj do czasu powrotu funkcji życiowych lub przybycia do weterynarza.</p>
       </div>
     </div>
-
     <div id="main_dog_fracture_screen" class="relative">
       <img class="background" src="img/first-dog-fracture.jpg" alt="background">
       <button onclick="homechoice()">
@@ -373,7 +656,6 @@
         </figure>
       </button>
     </div>
-
     <div id="dog_fracture_first_screen" class="relative">
       <img class="background" src="img/second-dog-fracture.jpg" alt="background">
       <button onclick="homechoice()">
@@ -390,7 +672,6 @@
           </p>
       </div>
     </div>
-
     <div id="dog_fracture_second_screen" class="relative">
       <img class="background" src="img/second-dog-fracture.jpg" alt="background">
       <button onclick="homechoice()">
@@ -405,7 +686,6 @@
           </p>
       </div>
     </div>
-
     <div id="main_dog_foreign_screen" class="relative">
       <img class="background" src="img/first-dog-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -425,7 +705,6 @@
         </br>- Wykonuj czynności do momentu powrotu funkcji życiowych lub dotarcia do weterynarza.</p>
       </div>
     </div>
-
     <div id="cat_screen" class="relative">
       <img class="background" src="img/cat.jpg" alt="background">
       <button onclick="homechoice()">
@@ -462,7 +741,6 @@
         </figure>
       </button>
     </div>
-
     <div id="main_cat_unconcious_screen" class="relative">
       <img class="background" src="img/first-cat-unconcious.jpg" alt="background">
       <button onclick="homechoice()">
@@ -481,7 +759,6 @@
         </figure>
       </button>
     </div>
-
     <div id="cat_unconcious_first_screen" class="relative">
       <img class="background" src="img/second-cat-unconcious.jpg" alt="background">
       <button onclick="homechoice()">
@@ -491,7 +768,6 @@
         <p>Zawiadom swojego weterynarza o sytuacji i postępuj zgodnie z jego instrukcjami. Jeśli to jest niemożliwe sprawdz czy w pysku pupila nie ma ciał obcych i przeprowadz sztuczne oddychanie. Obejmij ustami pyszczek zwierzęcia, delikatnie wdmuchuj powietrze 15-20 razy na minutę.</p>
       </div>
     </div>
-
     <div id="cat_unconcious_second_screen" class="relative">
       <img class="background" src="img/second-cat-unconcious.jpg" alt="background">
       <button onclick="homechoice()">
@@ -501,7 +777,6 @@
         <p>Zawiadom swojego weterynarza o sytuacji i postępuj zgodnie z jego instrukcjami. Jeśli to jest niemożliwe, upewnij sie że w jamie ustnej nie znajdują się żadne ciała obce, udrożnij drogi oddechowe, delikatnie uciskaj miejsce na klatce piersiowej (ok. 100/min) nad zgięciem stawu łokciowego jedną ręką, obejmując zwierze tak by kciuk był z jednej strony a reszta palców po drugiej.</p>
       </div>
     </div>
-
     <div id="main_cat_burn_screen" class="relative">
       <img class="background" src="img/first-cat-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -520,7 +795,6 @@
         </figure>
       </button>
     </div>
-
     <div id="cat_burn_first_screen" class="relative">
       <img class="background" src="img/second-cat-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -530,7 +804,6 @@
         <p>Zadbaj o ciepło kota, staraj się go nie ruszać, wezwij weterynarza.</p>
       </div>
     </div>
-
     <div id="cat_burn_second_screen" class="relative">
       <img class="background" src="img/second-cat-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -549,7 +822,6 @@
         </figure>
       </button>
     </div>
-
     <div id="cat_burn_third_screen" class="relative">
       <img class="background" src="img/third-cat-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -559,7 +831,6 @@
         <p>Polewaj część ciała chłodną wodą około 10 minut, jeśli pęcherze są zamknięte, nałóż bandaż, zabierz kota do weterynarza.</p>
       </div>
     </div>
-
     <div id="cat_burn_forth_screen" class="relative">
       <img class="background" src="img/third-cat-burn.jpg" alt="background">
       <button onclick="homechoice()">
@@ -569,7 +840,6 @@
         <p>Polewaj część ciała chłodną wodą około 10 minut, oparzenie wyleczy się w naturalny sposób, możesz skontultować sytuację z weterynarzem.</p>
       </div>
     </div>
-
     <div id="main_cat_bleeding_screen" class="relative">
       <img class="background" src="img/first-cat-bleeding.jpg" alt="background">
       <button onclick="homechoice()">
@@ -588,7 +858,6 @@
         </figure>
       </button>
     </div>
-
     <div id="cat_bleeding_first_screen" class="relative">
       <img class="background" src="img/second-cat-bleeding.jpg" alt="background">
       <button onclick="homechoice()">
@@ -598,7 +867,6 @@
         <p>Jeśli kot oddycha i ma normalne tętno unieś zranioną kończynę, przyłóż gazę i uciskaj. Jeśli krwawienie nie ustało potrzebny będzie mocniejszy opatrunek: owiń gazę bandażem i załóż opatrunek uciskowy: połóż np. Nierozwinięty bandaż w miejscu krwawienia i zawiń chustą lub bandażem dość mocno, lecz zostaw trochę miejsca na włożenie pod spód końcówki zawiniętej chusty lub bandażu. Następnie skontaktuj się z weterynarzem i wykonuj jego polecenia. Jeżeli to nie możliwe a pupil nie reaguje na bodźce zewnętrzne, sprawdź jego oddech i tętno które możesz sprawdzić na jego lewym boku za przednią łapą. Jeśli kot nie oddycha a ma tętno, wykonaj sztuczne oddychanie. Obejmij ustami pyszczek zwierzęcia i delikatnie wdmuchuj powietrze 15-20 razy na minutę, a jeżeli nie posiada też tętna wykonaj resuscytacje. elikatnie uciskaj miejsce na klatce piersiowej (ok. 100/min) nad zgięciem stawu łokciowego jedną ręką, obejmując zwierze tak by kciuk byl z jednej strony a reszta palców po drugiej.</p>
       </div>
     </div>
-
     <div id="cat_bleeding_second_screen" class="relative">
       <img class="background" src="img/second-cat-bleeding.jpg" alt="background">
       <button onclick="homechoice()">
@@ -608,7 +876,6 @@
         <p>Zdezynfekuj ranę jodyną, przyłóż gazę, po powstaniu skrzepu załóż mały opatrunek</p>
       </div>
     </div>
-
     <div id="main_cat_fracture_screen" class="relative">
       <img class="background" src="img/first-cat-fracture.jpg" alt="background">
       <button onclick="homechoice()">
@@ -627,7 +894,6 @@
         </figure>
       </button>
     </div>
-
     <div id="cat_fracture_first_screen" class="relative">
       <img class="background" src="img/second-cat-fracture.jpg" alt="background">
       <button onclick="homechoice()">
@@ -637,7 +903,6 @@
         <p>Delikatnie nałóż opatrunek z gazy, zabandażuj i unieruchom deseczkami lub patykami, obwiązując bandażem. Udaj się do weterynarza.</p>
       </div>
     </div>
-
     <div id="cat_fracture_second_screen" class="relative">
       <img class="background" src="img/second-cat-fracture.jpg" alt="background">
       <button onclick="homechoice()">
@@ -647,7 +912,6 @@
         <p>Zabandażuj i unieruchom deseczkami lub patykami, obwiązując bandażem. Udaj się do weterynarza.</p>
       </div>
     </div>
-
     <div id="main_cat_foreign_screen" class="relative">
       <img class="background" src="img/first-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -678,7 +942,6 @@
         </figure>
       </button>
     </div>
-
     <div id="main_cat_foreign_throat_screen" class="relative">
       <img class="background" src="img/second-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -697,7 +960,6 @@
         </figure>
       </button>
     </div>
-
     <div id="cat_foreign_throat_first_screen" class="relative">
       <img class="background" src="img/third-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -707,7 +969,6 @@
         <p>Skontaktuj się ze swoim weterynarzem i podążaj za jego instrukcjami lub jak najprędzej zabierz swojego pupila do niego, jeśli to nie jest możliwe postępuje z krokami poniżej. </br>- Przytrzymaj język kota i spróbuj wyciągnąć je pęsetą. </br>-Poklep kota po plecach w normalnej pozycji. </br>-Obróć kota głową w dół trzymając za nogi i lekko nim potrząśnij. </br>- Uciskaj środek brzucha w miejscu żołądka.</p>
       </div>
     </div>
-
     <div id="cat_foreign_throat_second_screen" class="relative">
       <img class="background" src="img/third-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -726,7 +987,6 @@
         </figure>
       </button>
     </div>
-
     <div id="cat_foreign_throat_first_problem_screen" class="relative">
       <img class="background" src="img/forth-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -736,7 +996,6 @@
         <p>Skontaktuj się ze swoim weterynarzem i podążaj za jego instrukcjami lub jak najprędzej zabierz swojego pupila do niego, jeśli to nie jest możliwe delikatnie uciskaj miejsce na klatce piersiowej (ok.100/min) nad zgięciem stawu łokciowego, obejmując zwierze tak by kciuk byl z jednej strony a reszta palców po drugiej. Kontynuuj aż do przybycia bądz do dotarcia do weterynarza lub do powrotu tętna i oddechu.</p>
       </div>
     </div>
-
     <div id="cat_foreign_throat_second_problem_screen" class="relative">
       <img class="background" src="img/forth-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -746,7 +1005,6 @@
         <p>Skontaktuj się ze swoim weterynarzem i podążaj za jego instrukcjami lub jak najprędzej zabierz swojego pupila do niego, jeśli to nie jest możliwe wykonaj sztuczne oddychanie. Obejmij ustami pyszczek zwierzęcia i delikatnie wdmuchuj powietrze 15-20 razy na minutę. Kontynuuj aż do przybycia bądz do dotarcia do weterynarza lub powrotu oddechu.</p>
       </div>
     </div>
-
     <div id="main_cat_foreign_nose_screen" class="relative">
       <img class="background" src="img/second-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -756,7 +1014,6 @@
         <p>Nie usuwaj ciała obcego, zastosuj zimny układ i udaj się do weterynarza.</p>
       </div>
     </div>
-
     <div id="main_cat_foreign_eye_screen" class="relative">
       <img class="background" src="img/second-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -766,7 +1023,6 @@
         <p>Zablokuj kotu dostęp do oka, przepłucz je kroplami do oczu lub solą fizjologiczną. Jeśli to nie pomoże skontaktuj się ze swoim weterynarzem.</p>
       </div>
     </div>
-
     <div id="main_cat_foreign_mouth_screen" class="relative">
       <img class="background" src="img/second-cat-foreign.jpg" alt="background">
       <button onclick="homechoice()">
@@ -776,6 +1032,5 @@
         <p>Usuń ciało obce palcami lub pęsetą. Jeśli ciało obce przedostało się do przełyku powinno się skontaktować z weterynarzem i postępować z jego instrukcjami, jeśli to jest z jakiegoś powodu niemożliwe chwyć kota za tylne łapy i lekko nim potrząśnij. Jeżeli to nie pomoże poklep kota mocno po plecach. Jeśli żadny z poprzednich kroków nie pomógł weź kota do weterynarza.</p>
       </div>
     </div>
-
   </body>
 </html>

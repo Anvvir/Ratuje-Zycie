@@ -1,204 +1,259 @@
-#human_screen {
-  display: none;
-}
-#adult_screen {
-  display: none;
-}
-#child_screen {
-  display: none;
-}
-#animal_screen {
-  display: none;
-}
-#dog_screen {
-  display: none;
-}
-#main_dog_unconcious_screen {
-  display: none;
-}
-#main_dog_burn_screen {
-  display: none;
-}
-#main_dog_burn_termal_screen {
-  display: none;
-}
-#dog_burn_termal_first_screen {
-  display: none;
-}
-#dog_burn_termal_second_screen {
-  display: none;
-}
-#main_dog_burn_chemical_screen {
-  display: none;
-}
-#main_dog_burn_fat_screen {
-  display: none;
-}
-#main_dog_burn_mouth_screen {
-  display: none;
-}
-#main_dog_bleeding_screen{
-  display: none;
-}
-#dog_bleeding_first_screen {
-  display: none;
-}
-#dog_bleeding_second_screen {
-  display: none;
-}
-#main_dog_foreign_screen{
-  display: none;
-}
-#cat_screen {
-  display: none;
-}
-#main_cat_unconcious_screen {
-  display: none;
-}
-#cat_unconcious_first_screen {
-  display: none;
-}
-#cat_unconcious_second_screen {
-  display: none;
-}
-#main_cat_burn_screen {
-  display: none;
-}
-#cat_burn_first_screen {
-  display: none;
-}
-#cat_burn_second_screen {
-  display: none;
-}
-#cat_burn_third_screen {
-  display: none;
-}
-#cat_burn_forth_screen {
-  display: none;
-}
-#main_cat_bleeding_screen {
-  display: none;
-}
-#cat_bleeding_first_screen {
-  display: none;
-}
-#cat_bleeding_second_screen {
-  display: none;
-}
-#main_dog_fracture_screen {
-  display: none;
-}
-#dog_fracture_first_screen {
-  display: none;
-}
-#dog_fracture_second_screen {
-  display: none;
-}
-#main_cat_fracture_screen {
-  display: none;
-}
-#cat_fracture_first_screen {
-  display: none;
-}
-#cat_fracture_second_screen {
-  display: none;
-}
-#main_cat_foreign_screen {
-  display: none;
-}
-#main_cat_foreign_throat_screen {
-  display: none;
-}
-#cat_foreign_throat_first_screen {
-  display: none;
-}
-#cat_foreign_throat_second_screen {
-  display: none;
-}
-#cat_foreign_throat_first_problem_screen {
-  display: none;
-}
-#cat_foreign_throat_second_problem_screen {
-  display: none;
-}
-#main_cat_foreign_nose_screen {
-  display: none;
-}
-#main_cat_foreign_eye_screen {
-  display: none;
-}
-#main_cat_foreign_mouth_screen {
-  display: none;
-}
-body {
-  margin: 0;
-  font-family: "Alegreya SC", sans-serif;
-  overflow: hidden;
-}
-.background {
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  filter: brightness(80%);
-}
-.relative {
-  position: relative;
-}
-h1 {
-  color: white;
-  width: 100%;
-  text-align: center;
-  font-size: 4rem;
-  position: absolute;
-  top: 7.5%;
-  margin: 0;
-  cursor: pointer;
-  font-family: "Alegreya SC", sans-serif;
-}
-button {
-  cursor: pointer;
-}
-figure {
-  color: white;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 10%;
-  margin: 0;
-}
-figcaption {
-  font-family: "Alegreya SC", sans-serif;
-  font-size: 1.5rem;
-}
-img {
-  width: 100%;
-}
-.paragraph{
-  position: absolute;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-}
-.first-logo {
-  left: 20%;
-  top: 25%;
-}
-.second-logo {
-  left: 70%;
-  top: 25%;
-}
-.third-logo {
-  left: 45%;
-  top: 25%;
-}
-.forth-logo {
-  top: 47%;
-  left: 32%;
-}
-.fifth-logo {
-  top: 47%;
-  left: 58%;
+@media (min-width: 100px) {
+  #human_screen {
+    display: none;
+  }
+  #adult_screen {
+    display: none;
+  }
+  #main_adult_unconcious_screen {
+    display: none;
+  }
+  #main_adult_burn_screen {
+    display: none;
+  }
+  #adult_burn_first_screen {
+    display: none;
+  }
+  #adult_burn_second_screen {
+    display: none;
+  }
+  #adult_burn_third_screen {
+    display: none;
+  }
+  #adult_burn_forth_screen {
+    display: none;
+  }
+  #adult_burn_fifth_screen {
+    display: none;
+  }
+  #main_adult_bleeding_screen {
+    display: none;
+  }
+  #adult_bleeding_first_screen {
+    display: none;
+  }
+  #adult_bleeding_second_screen {
+    display: none;
+  }
+  #adult_bleeding_third_screen {
+    display: none;
+  }
+  #main_adult_choking_screen {
+    display: none;
+  }
+  #main_adult_fracture_screen {
+    display: none;
+  }
+  #adult_fracture_first_screen{
+    display: none;
+  }
+  #adult_fracture_second_screen{
+    display: none;
+  }
+  #adult_fracture_third_screen{
+    display: none;
+  }
+  #child_screen {
+    display: none;
+  }
+  #main_child_reanimation_screen {
+    display: none;
+  }
+  #main_child_choking_screen {
+    display: none;
+  }
+  #animal_screen {
+    display: none;
+  }
+  #dog_screen {
+    display: none;
+  }
+  #main_dog_unconcious_screen {
+    display: none;
+  }
+  #main_dog_burn_screen {
+    display: none;
+  }
+  #main_dog_burn_termal_screen {
+    display: none;
+  }
+  #dog_burn_termal_first_screen {
+    display: none;
+  }
+  #dog_burn_termal_second_screen {
+    display: none;
+  }
+  #main_dog_burn_chemical_screen {
+    display: none;
+  }
+  #main_dog_burn_fat_screen {
+    display: none;
+  }
+  #main_dog_burn_mouth_screen {
+    display: none;
+  }
+  #main_dog_bleeding_screen{
+    display: none;
+  }
+  #dog_bleeding_first_screen {
+    display: none;
+  }
+  #dog_bleeding_second_screen {
+    display: none;
+  }
+  #main_dog_foreign_screen{
+    display: none;
+  }
+  #cat_screen {
+    display: none;
+  }
+  #main_cat_unconcious_screen {
+    display: none;
+  }
+  #cat_unconcious_first_screen {
+    display: none;
+  }
+  #cat_unconcious_second_screen {
+    display: none;
+  }
+  #main_cat_burn_screen {
+    display: none;
+  }
+  #cat_burn_first_screen {
+    display: none;
+  }
+  #cat_burn_second_screen {
+    display: none;
+  }
+  #cat_burn_third_screen {
+    display: none;
+  }
+  #cat_burn_forth_screen {
+    display: none;
+  }
+  #main_cat_bleeding_screen {
+    display: none;
+  }
+  #cat_bleeding_first_screen {
+    display: none;
+  }
+  #cat_bleeding_second_screen {
+    display: none;
+  }
+  #main_dog_fracture_screen {
+    display: none;
+  }
+  #dog_fracture_first_screen {
+    display: none;
+  }
+  #dog_fracture_second_screen {
+    display: none;
+  }
+  #main_cat_fracture_screen {
+    display: none;
+  }
+  #cat_fracture_first_screen {
+    display: none;
+  }
+  #cat_fracture_second_screen {
+    display: none;
+  }
+  #main_cat_foreign_screen {
+    display: none;
+  }
+  #main_cat_foreign_throat_screen {
+    display: none;
+  }
+  #cat_foreign_throat_first_screen {
+    display: none;
+  }
+  #cat_foreign_throat_second_screen {
+    display: none;
+  }
+  #cat_foreign_throat_first_problem_screen {
+    display: none;
+  }
+  #cat_foreign_throat_second_problem_screen {
+    display: none;
+  }
+  #main_cat_foreign_nose_screen {
+    display: none;
+  }
+  #main_cat_foreign_eye_screen {
+    display: none;
+  }
+  #main_cat_foreign_mouth_screen {
+    display: none;
+  }
+  body {
+    margin: 0;
+    height: 100%;
+    font-family: "Alegreya SC", sans-serif;
+    overflow: hidden;
+  }
+  .background {
+    background-size: cover;
+    filter: brightness(80%);
+  }
+  .relative {
+    position: relative;
+  }
+  h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    position: absolute;
+    top: 7.5%;
+    margin: 0;
+    cursor: pointer;
+    font-family: "Alegreya SC", sans-serif;
+  }
+  button {
+    cursor: pointer;
+  }
+  figure {
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 10%;
+    margin: 0;
+  }
+  figcaption {
+    font-family: "Alegreya SC", sans-serif;
+    font-size: 1.5rem;
+  }
+  img {
+    width: 100%;
+  }
+  .paragraph{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  .first-logo {
+    left: 20%;
+    top: 25%;
+  }
+  .second-logo {
+    left: 70%;
+    top: 25%;
+  }
+  .third-logo {
+    left: 45%;
+    top: 25%;
+  }
+  .forth-logo {
+    top: 47%;
+    left: 32%;
+  }
+  .fifth-logo {
+    top: 47%;
+    left: 58%;
+  }
 }
