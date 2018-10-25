@@ -1,189 +1,757 @@
-@media (min-width: 100px) {
+  #main_screen {
+    background-image: url("../img/humanoranimal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
   #human_screen {
     display: none;
+    background-image: url("../img/adultorchild.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_screen {
     display: none;
+    background-image: url("../img/adult.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_adult_unconcious_screen {
     display: none;
+    background-image: url("../img/first-adult-unconcious.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_adult_burn_screen {
     display: none;
+    background-image: url("../img/first-adult-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_burn_first_screen {
     display: none;
+    background-image: url("../img/second-adult-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_burn_second_screen {
     display: none;
+    background-image: url("../img/second-adult-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_burn_third_screen {
     display: none;
+    background-image: url("../img/second-adult-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_burn_forth_screen {
     display: none;
+    background-image: url("../img/second-adult-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_burn_fifth_screen {
     display: none;
+    background-image: url("../img/second-adult-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_adult_bleeding_screen {
     display: none;
+    background-image: url("../img/first-adult-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_bleeding_first_screen {
     display: none;
+    background-image: url("../img/second-adult-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_bleeding_second_screen {
     display: none;
+    background-image: url("../img/second-adult-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_bleeding_third_screen {
     display: none;
+    background-image: url("../img/second-adult-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_adult_choking_screen {
     display: none;
+    background-image: url("../img/first-adult-choking.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_adult_fracture_screen {
     display: none;
+    background-image: url("../img/first-adult-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_fracture_first_screen{
     display: none;
+    background-image: url("../img/second-adult-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_fracture_second_screen{
     display: none;
+    background-image: url("../img/second-adult-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #adult_fracture_third_screen{
     display: none;
+    background-image: url("../img/second-adult-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #child_screen {
     display: none;
+    background-image: url("../img/child.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_child_reanimation_screen {
     display: none;
+    background-image: url("../img/first-child.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_child_choking_screen {
     display: none;
+    background-image: url("../img/first-child.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #animal_screen {
     display: none;
+    background-image: url("../img/catordog.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #dog_screen {
     display: none;
+    background-image: url("../img/dog.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_dog_unconcious_screen {
     display: none;
+    background-image: url("../img/first-dog-unconcious.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_dog_burn_screen {
     display: none;
+    background-image: url("../img/first-dog-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_dog_burn_termal_screen {
     display: none;
+    background-image: url("../img/second-dog-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #dog_burn_termal_first_screen {
     display: none;
+    background-image: url("../img/third-dog-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #dog_burn_termal_second_screen {
     display: none;
+    background-image: url("../img/third-dog-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_dog_burn_chemical_screen {
     display: none;
+    background-image: url("../img/third-dog-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_dog_burn_fat_screen {
     display: none;
+    background-image: url("../img/third-dog-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_dog_burn_mouth_screen {
     display: none;
+    background-image: url("../img/third-dog-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_dog_bleeding_screen{
     display: none;
+    background-image: url("../img/first-dog-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #dog_bleeding_first_screen {
     display: none;
+    background-image: url("../img/second-dog-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #dog_bleeding_second_screen {
     display: none;
-  }
-  #main_dog_foreign_screen{
-    display: none;
-  }
-  #cat_screen {
-    display: none;
-  }
-  #main_cat_unconcious_screen {
-    display: none;
-  }
-  #cat_unconcious_first_screen {
-    display: none;
-  }
-  #cat_unconcious_second_screen {
-    display: none;
-  }
-  #main_cat_burn_screen {
-    display: none;
-  }
-  #cat_burn_first_screen {
-    display: none;
-  }
-  #cat_burn_second_screen {
-    display: none;
-  }
-  #cat_burn_third_screen {
-    display: none;
-  }
-  #cat_burn_forth_screen {
-    display: none;
-  }
-  #main_cat_bleeding_screen {
-    display: none;
-  }
-  #cat_bleeding_first_screen {
-    display: none;
-  }
-  #cat_bleeding_second_screen {
-    display: none;
+    background-image: url("../img/second-dog-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_dog_fracture_screen {
     display: none;
+    background-image: url("../img/first-dog-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #dog_fracture_first_screen {
     display: none;
+    background-image: url("../img/second-dog-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #dog_fracture_second_screen {
     display: none;
+    background-image: url("../img/second-dog-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #main_dog_foreign_screen{
+    display: none;
+    background-image: url("../img/first-dog-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_screen {
+    display: none;
+    background-image: url("../img/cat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #main_cat_unconcious_screen {
+    display: none;
+    background-image: url("../img/first-cat-unconcious.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_unconcious_first_screen {
+    display: none;
+    background-image: url("../img/second-cat-unconcious.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_unconcious_second_screen {
+    display: none;
+    background-image: url("../img/second-cat-unconcious.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #main_cat_burn_screen {
+    display: none;
+    background-image: url("../img/first-cat-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_burn_first_screen {
+    display: none;
+    background-image: url("../img/second-cat-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_burn_second_screen {
+    display: none;
+    background-image: url("../img/second-cat-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_burn_third_screen {
+    display: none;
+    background-image: url("../img/third-cat-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_burn_forth_screen {
+    display: none;
+    background-image: url("../img/third-cat-burn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #main_cat_bleeding_screen {
+    display: none;
+    background-image: url("../img/first-cat-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_bleeding_first_screen {
+    display: none;
+    background-image: url("../img/second-cat-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #cat_bleeding_second_screen {
+    display: none;
+    background-image: url("../img/second-cat-bleeding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_cat_fracture_screen {
     display: none;
+    background-image: url("../img/first-cat-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #cat_fracture_first_screen {
     display: none;
+    background-image: url("../img/second-cat-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #cat_fracture_second_screen {
     display: none;
+    background-image: url("../img/second-cat-fracture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_cat_foreign_screen {
     display: none;
+    background-image: url("../img/first-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_cat_foreign_throat_screen {
     display: none;
+    background-image: url("../img/second-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #cat_foreign_throat_first_screen {
     display: none;
+    background-image: url("../img/third-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #cat_foreign_throat_second_screen {
     display: none;
+    background-image: url("../img/third-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #cat_foreign_throat_first_problem_screen {
     display: none;
+    background-image: url("../img/forth-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #cat_foreign_throat_second_problem_screen {
     display: none;
+    background-image: url("../img/forth-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_cat_foreign_nose_screen {
     display: none;
+    background-image: url("../img/second-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_cat_foreign_eye_screen {
     display: none;
+    background-image: url("../img/second-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   #main_cat_foreign_mouth_screen {
     display: none;
+    background-image: url("../img/forth-cat-foreign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   body {
     margin: 0;
@@ -193,7 +761,7 @@
   }
   .background {
     background-size: cover;
-    filter: brightness(80%);
+    filter: brightness(70%);
   }
   .relative {
     position: relative;
@@ -211,6 +779,8 @@
   }
   button {
     cursor: pointer;
+    background-color: transparent;
+    border: none;
   }
   figure {
     color: white;
@@ -255,5 +825,69 @@
   .fifth-logo {
     top: 47%;
     left: 58%;
+  }
+@media (min-width: 700px) and (max-width: 999px) {
+  h1 {
+    font-size: 4rem;
+    top: 3%;
+  }
+  figure {
+    width: 20%;
+  }
+  .first-logo {
+    left: 15%;
+    top: 30%;
+  }
+  .second-logo {
+    left: 65%;
+    top: 30%;
+  }
+  .third-logo {
+    left: 40%;
+    top: 45%;
+  }
+  .forth-logo {
+    left: 15%;
+    top: 60%;
+  }
+  .fifth-logo {
+    left: 65%;
+    top: 60%;
+  }
+  .paragraph {
+    top: 20%;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 200px) and (max-width: 699px) {
+  h1 {
+    font-size: 6rem;
+  }
+  figure {
+    width: 30%;
+  }
+  .first-logo {
+    left: 10%;
+    top: 30%;
+  }
+  .second-logo {
+    left: 60%;
+    top: 30%;
+  }
+  .third-logo {
+    left: 35%;
+    top: 50%;
+  }
+  .forth-logo {
+    left: 10%;
+    top: 70%;
+  }
+  .fifth-logo {
+    left: 60%;
+    top: 70%;
+  }
+  .paragraph {
+    top: 20%;
+    font-size: 2.5rem;
   }
 }
