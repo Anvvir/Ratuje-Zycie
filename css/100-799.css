@@ -1,0 +1,100 @@
+@media (min-width: 100px) and (max-width: 799px){
+  #background{
+    display: none;
+  }
+  #whiteblackbackground{
+    display: none;
+  }
+  #tabletbackground{
+    display: none;
+  }
+  #tabletwhiteblackbackground{
+    display: none;
+  }
+  p {
+    display: none;
+  }
+  body {
+    margin: 0px;
+    font-family: 'Alegreya SC', sans-serif;
+
+  }
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  #smartphonewhiteblackbackground {
+    z-index: -1;
+  }
+  @keyframes backgroundanimation {
+    100% {opacity: 1;}
+  }
+  #smartphonebackground {
+    opacity: 0;
+    animation-name: backgroundanimation;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  }
+  h1{
+    text-align: center;
+    margin: 0;
+    font-size: 4rem;
+    color: white;
+    padding-top: 5%;
+    animation-name: h1animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes h1animation {
+    0% {opacity: 0;}
+  }
+  .button{
+    font-family: 'Alegreya SC', sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    width: 95%;
+    margin: 0 -30%;
+    color: white;
+    background-color: transparent;
+    border: none;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    display: block;
+  }
+  #button1 {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    top: 32%;
+    left: 33%;
+    border: 3px solid white;
+    border-radius: 15px;
+    font-family: 'Alegreya SC', sans-serif;
+    color: white;
+    background-color: transparent;
+    animation-name: button1animation;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes button1animation {
+    100% {opacity: 1;}
+  }
+  #button2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    border: 3px solid white;
+    border-radius: 15px;
+    opacity: 0;
+    animation-name: button2animation;
+    animation-delay: 3s;
+  }
+  @keyframes button2animation {
+    100% {opacity: 1;}
+  }
+}
