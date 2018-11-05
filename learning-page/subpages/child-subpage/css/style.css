@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Alegreya SC", sans-serif;
+}
+#content {
+  position: relative;
+  height: 100%;
+  z-index: -2;
+}
+#background {
+  height: 100%;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: brightness(50%);
+}
+h1{
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+  cursor: pointer;
+  margin: 1%;
+  opacity: 0;
+  animation-name: show-up;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  margin: 0;
+  opacity: 0;
+  animation-name: show-up;
+  animation-delay: 4s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+article {
+  position: absolute;
+  top: 0%;
+  width: 80%;
+  margin: 0 8%;
+  padding: 2%;
+  opacity: 0;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
+  animation-name: show-up;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+p {
+  color: white;
+  text-align: center;
+  font-size: 1.75rem;
+  opacity: 0;
+  animation-name: show-up;
+  animation-delay: 5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes show-up {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
