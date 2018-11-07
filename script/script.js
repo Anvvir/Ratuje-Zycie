@@ -1,6 +1,6 @@
-function firstdiscriptionfunction() {
-  document.getElementById("firstdiscription").style.display="block";
+function firstdescriptionfunction() {
+  document.getElementById("firstdescription").style.display="block";
 }
-function seconddiscriptionfunction() {
-  document.getElementById("seconddiscription").style.display="block";
+function seconddescriptionfunction() {
+  document.getElementById("seconddescription").style.display="block";
 }

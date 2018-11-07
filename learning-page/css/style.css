@@ -1,3 +1,4 @@
+
 html {
   height: 100%;
 }
@@ -131,4 +132,54 @@ figcaption:hover {
 @keyframes intro {
   0% {opacity: 0;}
   100% {opacity: 100;}
+}
+@media (min-width: 200px) and (max-width: 699px) {
+  img {
+    width: 750%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  #first-option {
+    top: 20%;
+    left: 2%;
+  }
+  #first-option:hover {
+    transform: scale(1.2);
+  }
+  #second-option {
+    top: 20%;
+    left: 52%;
+  }
+  #second-option:hover {
+    transform: scale(1.2);
+  }
+  #third-option {
+    top: 50%;
+    left: 2%;
+  }
+  #third-option:hover {
+    transform: scale(1.2);
+  }
+  #forth-option {
+    top: 50%;
+    left: 52%;
+  }
+  #forth-option:hover {
+    transform: scale(1.2);
+  }
+  .text {
+    opacity: 1;
+    font-size: 2rem;
+  }
+  img {
+    width: 150%;
+  }
+  figure {
+
+    width: 100%;
+  }
+  figcaption {
+    width: 150%;
+  }
 }

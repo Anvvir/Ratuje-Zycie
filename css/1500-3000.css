@@ -108,10 +108,10 @@
   #button2:hover:before {
     transform: scaleX(1);
   }
-  #button1:hover ~ #firstdiscription {
+  #button1:hover ~ #firstdescription {
     opacity: 1;
   }
-  #button2:hover ~ #seconddiscription {
+  #button2:hover ~ #seconddescription {
     opacity: 1;
   }
   p {
@@ -121,7 +121,7 @@
     text-align: center;
     width: 500px;
   }
-  #firstdiscription {
+  #firstdescription {
     position: absolute;
     top: 38%;
     left: -9%;
@@ -129,14 +129,12 @@
     transition: 0.3s;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-name: firstdiscriptionanimation;
+    animation-name: firstdescriptionanimation;
   }
-  @keyframes firstdiscriptionanimation {
-    0% {opacity: 0;}
-    75% {opacity: 0;}
+  @keyframes firstdescriptionanimation {
     100% {left: 1%;}
   }
-  #seconddiscription {
+  #seconddescription {
     position: absolute;
     top: 38%;
     left: 37%;
@@ -144,11 +142,9 @@
     transition: 0.3s;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-name: seconddiscriptionanimation
+    animation-name: seconddescriptionanimation
   }
-  @keyframes seconddiscriptionanimation {
-    0% {opacity: 0;}
-    75% {opacity: 0;}
+  @keyframes seconddescriptionanimation {
     100% {left: 27%;}
   }
 }

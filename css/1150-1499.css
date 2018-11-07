@@ -116,7 +116,7 @@ p {
   text-align: center;
   width: 500px;
 }
-#firstdiscription {
+#firstdescription {
   position: absolute;
   top: 25%;
   left: 7%;
@@ -124,10 +124,10 @@ p {
   transition: 0.3s;
   animation-duration: 5s;
   animation-fill-mode: forwards;
-  animation-name: firstdiscriptionanimation;
+  animation-name: firstdescriptionanimation;
   animation-delay: 1s;
 }
-#firstdiscription:before {
+#firstdescription:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -137,12 +137,12 @@ p {
   transform: scaleX(1);
   transition: 0.3s;
 }
-@keyframes firstdiscriptionanimation {
+@keyframes firstdescriptionanimation {
 0% {opacity: 0;}
 75% {opacity: 0;}
 100% {opacity: 1;}
 }
-#seconddiscription {
+#seconddescription {
   position: absolute;
   top: 25%;
   left: 56%;
@@ -150,10 +150,10 @@ p {
   transition: 0.3s;
   animation-duration: 5s;
   animation-fill-mode: forwards;
-  animation-name: seconddiscriptionanimation;
+  animation-name: seconddescriptionanimation;
   animation-delay: 1s;
 }
-#seconddiscription:before {
+#seconddescription:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -163,7 +163,7 @@ p {
   transform: scaleX(1);
   transition: 0.3s;
 }
-@keyframes seconddiscriptionanimation {
+@keyframes seconddescriptionanimation {
   0% {opacity: 0;}
   75% {opacity: 0;}
   100% {opacity: 1;}
