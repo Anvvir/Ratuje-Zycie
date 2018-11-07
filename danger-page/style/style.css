@@ -8,7 +8,9 @@
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 1;
   }
+
   #human_screen {
     display: none;
     background-image: url("../img/adultorchild.jpg");
@@ -768,20 +770,24 @@
   }
   h1 {
     color: white;
-    width: 100%;
     text-align: center;
     font-size: 4rem;
+    width: 100%;
     position: absolute;
     text-decoration: none;
     top: 7.5%;
     margin: 0;
-    cursor: pointer;
-    font-family: "Alegreya SC", sans-serif;
   }
   button {
     cursor: pointer;
     background-color: transparent;
     border: none;
+    font-family: "Alegreya SC", sans-serif;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
   }
   figure {
     color: white;
@@ -794,6 +800,7 @@
   figcaption {
     font-family: "Alegreya SC", sans-serif;
     font-size: 1.5rem;
+    color: white;
   }
   img {
     width: 100%;

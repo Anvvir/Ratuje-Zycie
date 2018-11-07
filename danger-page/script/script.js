@@ -1,3 +1,6 @@
+function homechoice() {
+  document.getElementById("main_screen").style.display = "block";
+}
 function humanchoice() {
   document.getElementById("human_screen").style.display = "block";
   document.getElementById("main_screen").style.display = "none";
