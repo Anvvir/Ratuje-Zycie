@@ -46,6 +46,9 @@ h1 {
 a {
   text-decoration: none;
 }
+figure {
+  margin: 0;
+}
 figcaption {
   opacity: 0;
   transition: opacity 1s ease;
@@ -140,32 +143,23 @@ figcaption:hover {
   }
   #first-option {
     top: 30%;
-    left: 10%;
+    left: 15%;
   }
   #second-option {
     top: 30%;
-    left: 60%;
+    left: 65%;
   }
   #third-option {
     top: 60%;
-    left: 10%;
+    left: 15%;
   }
   #forth-option {
     top: 60%;
-    left: 60%;
+    left: 65%;
   }
   .text {
     opacity: 1;
     font-size: 1.5rem;
-  }
-  img {
-    width: 100%;
-  }
-  figure {
-    width: 100%;
-  }
-  figcaption {
-    width: 100%;
   }
 }
 @media (min-width: 200px) and (max-width: 699px) {
@@ -174,30 +168,21 @@ figcaption:hover {
   }
   #first-option {
     top: 30%;
-    left: 0%;
+    left: 10%;
   }
   #second-option {
     top: 30%;
-    left: 50%;
+    left: 60%;
   }
   #third-option {
     top: 60%;
-    left: 0%;
+    left: 10%;
   }
   #forth-option {
     top: 60%;
-    left: 50%;
+    left: 60%;
   }
   .text {
     opacity: 1;
     font-size: 1.5rem;
-  }
-  img {
-    width: 150%;
-  }
-  figure {
-    width: 100%;
-  }
-  figcaption {
-    width: 160%;
   }
