@@ -22,9 +22,10 @@ body {
 }
 img {
   width: 100%;
-  float: left;
+  text-align: center;
+  margin: -5px;
   border: 5px solid white;
-  border-radius: 5px;
+  float: left;
 }
 h1 {
   position: absolute;
@@ -47,6 +48,7 @@ a {
   text-decoration: none;
 }
 figure {
+  width: 100%;
   margin: 0;
 }
 figcaption {
@@ -137,7 +139,7 @@ figcaption:hover {
   0% {opacity: 0;}
   100% {opacity: 100;}
 }
-@media (min-width: 700px) and (max-width: 1040px) {
+@media (min-width: 600px) and (max-width: 1040px) {
   h1 {
     font-size: 3rem;
   }
@@ -162,27 +164,27 @@ figcaption:hover {
     font-size: 1.5rem;
   }
 }
-@media (min-width: 200px) and (max-width: 699px) {
+@media (min-width: 200px) and (max-width: 599px) {
   h1 {
     font-size: 2rem;
   }
   #first-option {
     top: 30%;
-    left: 10%;
+    left: 15%;
   }
   #second-option {
     top: 30%;
-    left: 60%;
+    left: 65%;
   }
   #third-option {
     top: 60%;
-    left: 10%;
+    left: 15%;
   }
   #forth-option {
     top: 60%;
-    left: 60%;
+    left: 65%;
   }
   .text {
     opacity: 1;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
   }
