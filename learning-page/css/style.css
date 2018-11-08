@@ -1,4 +1,3 @@
-
 html {
   height: 100%;
 }
@@ -30,10 +29,12 @@ img {
 h1 {
   position: absolute;
   top: 5%;
-  width: 100%;
+  width: 95%;
   opacity: 0;
   text-align: center;
   font-size: 4rem;
+  padding-right: 10px;
+  padding-left: 10px;
   font-family: "Alegreya SC", sans-serif;
   color: white;
   animation-name: intro;
@@ -133,53 +134,70 @@ figcaption:hover {
   0% {opacity: 0;}
   100% {opacity: 100;}
 }
-@media (min-width: 200px) and (max-width: 699px) {
-  img {
-    width: 750%;
+@media (min-width: 700px) and (max-width: 1040px) {
+  h1 {
+    font-size: 3rem;
   }
+  #first-option {
+    top: 30%;
+    left: 10%;
+  }
+  #second-option {
+    top: 30%;
+    left: 60%;
+  }
+  #third-option {
+    top: 60%;
+    left: 10%;
+  }
+  #forth-option {
+    top: 60%;
+    left: 60%;
+  }
+  .text {
+    opacity: 1;
+    font-size: 1.5rem;
+  }
+  img {
+    width: 100%;
+  }
+  figure {
+    width: 100%;
+  }
+  figcaption {
+    width: 100%;
+  }
+}
+@media (min-width: 200px) and (max-width: 699px) {
   h1 {
     font-size: 2rem;
   }
   #first-option {
-    top: 20%;
-    left: 2%;
-  }
-  #first-option:hover {
-    transform: scale(1.2);
+    top: 30%;
+    left: 0%;
   }
   #second-option {
-    top: 20%;
-    left: 52%;
-  }
-  #second-option:hover {
-    transform: scale(1.2);
+    top: 30%;
+    left: 50%;
   }
   #third-option {
-    top: 50%;
-    left: 2%;
-  }
-  #third-option:hover {
-    transform: scale(1.2);
+    top: 60%;
+    left: 0%;
   }
   #forth-option {
-    top: 50%;
-    left: 52%;
-  }
-  #forth-option:hover {
-    transform: scale(1.2);
+    top: 60%;
+    left: 50%;
   }
   .text {
     opacity: 1;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   img {
     width: 150%;
   }
   figure {
-
     width: 100%;
   }
   figcaption {
-    width: 150%;
+    width: 160%;
   }
-}
