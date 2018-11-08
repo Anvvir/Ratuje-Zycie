@@ -164,7 +164,7 @@ figcaption:hover {
     font-size: 1.5rem;
   }
 }
-@media (min-width: 200px) and (max-width: 599px) {
+@media (max-width: 599px) {
   h1 {
     font-size: 2rem;
   }
