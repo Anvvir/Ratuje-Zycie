@@ -10,7 +10,6 @@
     right: 0;
     z-index: 1;
   }
-
   #human_screen {
     display: none;
     background-image: url("../img/adultorchild.jpg");
@@ -755,11 +754,17 @@
     left: 0;
     right: 0;
   }
+  backgruond-image {
+    filter: brightness(10%);
+  }
   body {
     margin: 0;
     height: 100%;
     font-family: "Alegreya SC", sans-serif;
     overflow: hidden;
+  }
+  button {
+    outline: 0;
   }
   .background {
     background-size: cover;
