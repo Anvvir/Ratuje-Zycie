@@ -85,7 +85,7 @@ figcaption:hover {
   animation-fill-mode: forwards;
 }
 #first-option:hover {
-  filter: brightness(120%);
+  filter: brightness(110%);
   transform: scale(1.2);
 }
 #content:hover ~ #first-option{
@@ -138,7 +138,7 @@ figcaption:hover {
 }
 @keyframes intro {
   0% {opacity: 0;}
-  100% {opacity: 100;}
+  100% {opacity: 10;}
 }
 @media (min-width: 600px) and (max-width: 1040px) {
   h1 {

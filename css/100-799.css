@@ -26,9 +26,6 @@
   #smartphonewhiteblackbackground {
     z-index: -1;
   }
-  @keyframes backgroundanimation {
-    100% {opacity: 1;}
-  }
   #smartphonebackground {
     opacity: 0;
     animation-name: backgroundanimation;
@@ -45,9 +42,6 @@
     animation-name: h1animation;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-  }
-  @keyframes h1animation {
-    0% {opacity: 0;}
   }
   .button{
     font-family: 'Alegreya SC', sans-serif;
@@ -74,13 +68,10 @@
     font-family: 'Alegreya SC', sans-serif;
     color: white;
     background-color: transparent;
-    animation-name: button1animation;
+    animation-name: button1-animation-phone;
     animation-duration: 3s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-  }
-  @keyframes button1animation {
-    100% {opacity: 1;}
   }
   #button2 {
     text-align: center;
@@ -90,10 +81,23 @@
     border: 3px solid white;
     border-radius: 15px;
     opacity: 0;
-    animation-name: button2animation;
+    animation-name: button2-animation-phone;
     animation-delay: 3s;
   }
-  @keyframes button2animation {
-    100% {opacity: 1;}
-  }
+}
+
+@keyframes backgroundanimation {
+  100% {opacity: 1;}
+}
+
+@keyframes h1animation {
+  0% {opacity: 0;}
+}
+
+@keyframes button1-animation-phone {
+  100% {opacity: 1;}
+}
+
+@keyframes button2-animation-phone {
+  100% {opacity: 1;}
 }

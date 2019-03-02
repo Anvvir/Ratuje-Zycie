@@ -1,171 +1,177 @@
 @media (min-width: 1150px) and (max-width: 1499px){
-#smartphonebackground{
-  display: none;
+  #smartphonebackground{
+    display: none;
+  }
+  #smartphonewhiteblackbackground{
+    display: none;
+  }
+  #background{
+    display: none;
+  }
+  #whiteblackbackground{
+    display: none;
+  }
+  body {
+    margin: 0px;
+    font-family: 'Alegreya SC', sans-serif;
+  }
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  #tabletwhiteblackbackground {
+    z-index: -1;
+  }
+  #tabletbackground{
+    opacity: 0;
+    animation-name: tabletbackgroundanimation;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  }
+  h1{
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    margin: 0;
+    font-size: 8em;
+    color: white;
+    animation-name: h1animation;
+    animation-duration: 3s;
+  }
+  .button{
+    font-family: 'Alegreya SC', sans-serif;
+    font-size: 3em;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    display: block;
+  }
+  .button:hover {
+    color: #D0D0D0;
+    cursor: pointer;
+  }
+  #button1 {
+    position: absolute;
+    opacity: 0;
+    top: 17%;
+    left: 5%;
+    animation-name: button1-animation-tablet;
+  }
+  #button1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0px;
+    background-color: white;
+    transform: scaleX(0);
+    transition: 0.3s;
+  }
+  #button1:hover:before {
+    transform: scaleX(0);
+  }
+  #button2 {
+    position: absolute;
+    top: 17%;
+    left: 67%;
+    opacity: 0;
+    animation-name: button2-animation-tablet;
+  }
+  #button2:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transition: 0.3s;
+  }
+  #button2:hover:before {
+    transform: scaleX(0);
+  }
+  p {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+  }
+  #firstdescription {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    opacity: 0;
+    transition: 0.3s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-name: first-description-animation-tablet;
+    animation-delay: 1s;
+  }
+  #firstdescription:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 110px;
+    background-color: white;
+    transform: scaleX(1);
+    transition: 0.3s;
+  }
+  #seconddescription {
+    position: absolute;
+    top: 25%;
+    left: 56%;
+    opacity: 0;
+    transition: 0.3s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-name: second-description-animation-tablet;
+    animation-delay: 1s;
+  }
+  #seconddescription:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 190px;
+    background-color: white;
+    transform: scaleX(1);
+    transition: 0.3s;
+  }
 }
-#smartphonewhiteblackbackground{
-  display: none;
-}
-#background{
-  display: none;
-}
-#whiteblackbackground{
-  display: none;
-}
-body {
-  margin: 0px;
-  font-family: 'Alegreya SC', sans-serif;
-}
-.background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-#tabletwhiteblackbackground {
-  z-index: -1;
-}
-#tabletbackground{
-  opacity: 0;
-  animation-name: tabletbackgroundanimation;
-  animation-duration: 2s;
-  animation-delay: 5s;
-  animation-fill-mode: forwards;
-}
+
 @keyframes tabletbackgroundanimation {
   100% {opacity: 1;}
 }
-h1{
-  cursor: pointer;
-  position: absolute;
-  top: 0%;
-  left: 25%;
-  margin: 0;
-  font-size: 8em;
-  color: white;
-  animation-name: h1animation;
-  animation-duration: 3s;
-}
+
 @keyframes h1animation {
   0% {opacity: 0;}
 }
-.button{
-  font-family: 'Alegreya SC', sans-serif;
-  font-size: 3em;
-  text-decoration: none;
-  color: white;
-  background-color: transparent;
-  border: none;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-  display: block;
-}
-.button:hover {
-  color: #D0D0D0;
-  cursor: pointer;
-}
-#button1 {
-  position: absolute;
-  opacity: 0;
-  top: 17%;
-  left: 5%;
-  animation-name: button1animation;
-}
-@keyframes button1animation {
+
+@keyframes button1-animation-tablet {
   100% {left: 12%; opacity: 1;}
 }
-#button1:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 0px;
-  background-color: white;
-  transform: scaleX(0);
-  transition: 0.3s;
-}
-#button1:hover:before {
-  transform: scaleX(0);
-}
-#button2 {
-  position: absolute;
-  top: 17%;
-  left: 67%;
-  opacity: 0;
-  animation-name: button2animation;
-}
-@keyframes button2animation {
+
+@keyframes button2-animation-tablet {
   100% {left: 60%; opacity: 1;}
 }
-#button2:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 0;
-  background-color: white;
-  transform: scaleX(0);
-  transition: 0.3s;
-}
-#button2:hover:before {
-  transform: scaleX(0);
-}
-p {
-  margin: 0;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  width: 500px;
-}
-#firstdescription {
-  position: absolute;
-  top: 25%;
-  left: 7%;
-  opacity: 0;
-  transition: 0.3s;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-name: firstdescriptionanimation;
-  animation-delay: 1s;
-}
-#firstdescription:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 110px;
-  background-color: white;
-  transform: scaleX(1);
-  transition: 0.3s;
-}
-@keyframes firstdescriptionanimation {
-0% {opacity: 0;}
-75% {opacity: 0;}
-100% {opacity: 1;}
-}
-#seconddescription {
-  position: absolute;
-  top: 25%;
-  left: 56%;
-  opacity: 0;
-  transition: 0.3s;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-name: seconddescriptionanimation;
-  animation-delay: 1s;
-}
-#seconddescription:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 190px;
-  background-color: white;
-  transform: scaleX(1);
-  transition: 0.3s;
-}
-@keyframes seconddescriptionanimation {
+
+@keyframes first-description-animation-tablet {
   0% {opacity: 0;}
   75% {opacity: 0;}
   100% {opacity: 1;}
 }
+
+@keyframes second-description-animation-tablet {
+  0% {opacity: 0;}
+  75% {opacity: 0;}
+  100% {opacity: 1;}
 }
